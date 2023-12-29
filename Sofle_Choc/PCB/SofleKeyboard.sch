@@ -1,7 +1,7 @@
-EESchema Schematic File Version 4
-EELAYER 30 0
+EESchema Schematic File Version 5
+EELAYER 43 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title ""
@@ -12,53 +12,472 @@ Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
 $EndDescr
-Text GLabel 6050 3750 0    50   Input ~ 0
-row0
-Text GLabel 6050 4400 0    50   Input ~ 0
-row1
-Text GLabel 6050 5050 0    50   Input ~ 0
-row2
-Text GLabel 6050 5700 0    50   Input ~ 0
-row3
-Text GLabel 6050 6350 0    50   Input ~ 0
-row4
-Text GLabel 10300 3450 1    50   Input ~ 0
-col0
-Text GLabel 9500 3450 1    50   Input ~ 0
-col1
-Text GLabel 8700 3450 1    50   Input ~ 0
-col2
-Text GLabel 7900 3450 1    50   Input ~ 0
-col3
-Text GLabel 7100 3450 1    50   Input ~ 0
-col4
-Text GLabel 6300 3450 1    50   Input ~ 0
-col5
-Wire Wire Line
-	6050 6350 6900 6350
-Text GLabel 2400 1950 2    50   Input ~ 0
-col5
-Text GLabel 2400 1850 2    50   Input ~ 0
-col4
-Text GLabel 2400 1750 2    50   Input ~ 0
-col3
-Text GLabel 2400 1650 2    50   Input ~ 0
-col2
-Text GLabel 2400 1550 2    50   Input ~ 0
-col1
-Text GLabel 2400 1450 2    50   Input ~ 0
-col0
-NoConn ~ 1100 1450
-Text GLabel 2400 1050 2    50   Input ~ 0
-RESET
+Connection ~ 1000 4100
+Connection ~ 1050 4000
+Connection ~ 1100 1150
+Connection ~ 1100 3900
+Connection ~ 1150 3800
+Connection ~ 2000 3400
+Connection ~ 6500 5250
+Connection ~ 6500 5900
+Connection ~ 6500 6550
+Connection ~ 6500 7200
+Connection ~ 7100 4900
+Connection ~ 7100 5550
+Connection ~ 7100 6200
+Connection ~ 7100 6850
+Connection ~ 7100 7500
+Connection ~ 7100 8100
+Connection ~ 7300 5250
+Connection ~ 7300 5900
+Connection ~ 7300 6550
+Connection ~ 7300 7200
+Connection ~ 7900 4900
+Connection ~ 7900 5550
+Connection ~ 7900 6200
+Connection ~ 7900 6850
+Connection ~ 7900 7500
+Connection ~ 7900 8100
+Connection ~ 8100 5250
+Connection ~ 8100 5900
+Connection ~ 8100 6550
+Connection ~ 8100 7200
+Connection ~ 8700 4900
+Connection ~ 8700 5550
+Connection ~ 8700 6200
+Connection ~ 8700 6850
+Connection ~ 8700 7500
+Connection ~ 8700 8100
+Connection ~ 8900 5250
+Connection ~ 8900 5900
+Connection ~ 8900 6550
+Connection ~ 8900 7200
+Connection ~ 9500 4900
+Connection ~ 9500 5550
+Connection ~ 9500 6200
+Connection ~ 9500 6850
+Connection ~ 9500 7500
+Connection ~ 9500 8100
+Connection ~ 9700 5250
+Connection ~ 9700 5900
+Connection ~ 9700 6550
+Connection ~ 9700 7200
+Connection ~ 10300 4900
+Connection ~ 10300 5550
+Connection ~ 10300 6200
+Connection ~ 10300 6850
+Connection ~ 10300 7500
+Connection ~ 10300 8100
+Connection ~ 10500 5250
+Connection ~ 10500 5900
+Connection ~ 10500 6550
+Connection ~ 10500 7200
 NoConn ~ 2400 850 
+NoConn ~ 10700 900 
+Wire Wire Line
+	1000 3800 1150 3800
+Wire Wire Line
+	1000 3900 1100 3900
+Wire Wire Line
+	1000 4000 1050 4000
+Wire Wire Line
+	1000 4100 1000 4550
+Wire Wire Line
+	1000 4550 1200 4550
+Wire Wire Line
+	1050 4000 1050 4450
+Wire Wire Line
+	1050 4000 1200 4000
+Wire Wire Line
+	1050 4450 1200 4450
+Wire Wire Line
+	1100 1050 1100 1150
+Wire Wire Line
+	1100 1150 850  1150
+Wire Wire Line
+	1100 3900 1100 4350
+Wire Wire Line
+	1100 3900 1200 3900
+Wire Wire Line
+	1100 4350 1200 4350
+Wire Wire Line
+	1150 3800 1150 4250
+Wire Wire Line
+	1150 3800 1200 3800
+Wire Wire Line
+	1150 4250 1200 4250
+Wire Wire Line
+	1200 4100 1000 4100
+Wire Wire Line
+	1600 3050 2000 3050
+Wire Wire Line
+	1600 3300 1700 3300
+Wire Wire Line
+	1600 3400 2000 3400
+Wire Wire Line
+	1650 6150 1650 6250
+Wire Wire Line
+	1700 3000 1700 3200
+Wire Wire Line
+	1700 3200 1600 3200
+Wire Wire Line
+	1700 3300 1700 3450
+Wire Wire Line
+	2100 6050 2250 6050
+Wire Wire Line
+	2100 6250 2250 6250
+Wire Wire Line
+	2250 6150 1650 6150
+Wire Wire Line
+	2400 950  2700 950 
+Wire Wire Line
+	2400 1150 2700 1150
+Wire Wire Line
+	2850 6050 3150 6050
+Wire Wire Line
+	2850 6250 3150 6250
+Wire Wire Line
+	6250 7500 7100 7500
+Wire Wire Line
+	6250 8100 7100 8100
+Wire Wire Line
+	6500 4600 6500 5250
+Wire Wire Line
+	6500 5250 6500 5900
+Wire Wire Line
+	6500 5900 6500 6550
+Wire Wire Line
+	6500 6550 6500 7200
+Wire Wire Line
+	6500 7200 6500 7800
+Wire Wire Line
+	6500 7200 6550 7200
+Wire Wire Line
+	7075 900  7300 900 
+Wire Wire Line
+	7100 4900 6250 4900
+Wire Wire Line
+	7100 5550 6250 5550
+Wire Wire Line
+	7100 6200 6250 6200
+Wire Wire Line
+	7100 6850 6250 6850
+Wire Wire Line
+	7100 7050 7100 7200
+Wire Wire Line
+	7100 7500 7900 7500
+Wire Wire Line
+	7300 1200 7300 1350
+Wire Wire Line
+	7300 1675 7300 1800
+Wire Wire Line
+	7300 2125 7300 2250
+Wire Wire Line
+	7300 2600 7300 2750
+Wire Wire Line
+	7300 2600 7700 2600
+Wire Wire Line
+	7300 3100 7300 3250
+Wire Wire Line
+	7300 3100 7700 3100
+Wire Wire Line
+	7300 4600 7300 5250
+Wire Wire Line
+	7300 5250 7300 5900
+Wire Wire Line
+	7300 5900 7300 6550
+Wire Wire Line
+	7300 6550 7300 7200
+Wire Wire Line
+	7300 7200 7300 7800
+Wire Wire Line
+	7700 1100 7700 1200
+Wire Wire Line
+	7700 1200 7300 1200
+Wire Wire Line
+	7700 1550 7700 1675
+Wire Wire Line
+	7700 1675 7300 1675
+Wire Wire Line
+	7700 2000 7700 2125
+Wire Wire Line
+	7700 2125 7300 2125
+Wire Wire Line
+	7700 2450 7700 2600
+Wire Wire Line
+	7700 2950 7700 3100
+Wire Wire Line
+	7700 3450 7900 3450
+Wire Wire Line
+	7900 1225 7900 1100
+Wire Wire Line
+	7900 1675 7900 1550
+Wire Wire Line
+	7900 2125 7900 2000
+Wire Wire Line
+	7900 2450 7900 2600
+Wire Wire Line
+	7900 2600 8300 2600
+Wire Wire Line
+	7900 2950 7900 3100
+Wire Wire Line
+	7900 3100 8300 3100
+Wire Wire Line
+	7900 4900 7100 4900
+Wire Wire Line
+	7900 4900 8700 4900
+Wire Wire Line
+	7900 5550 7100 5550
+Wire Wire Line
+	7900 5550 8700 5550
+Wire Wire Line
+	7900 6200 7100 6200
+Wire Wire Line
+	7900 6200 8700 6200
+Wire Wire Line
+	7900 6850 7100 6850
+Wire Wire Line
+	7900 6850 8700 6850
+Wire Wire Line
+	7900 7500 8700 7500
+Wire Wire Line
+	7900 8100 7100 8100
+Wire Wire Line
+	7900 8100 8700 8100
+Wire Wire Line
+	8100 4600 8100 5250
+Wire Wire Line
+	8100 5250 8100 5900
+Wire Wire Line
+	8100 5900 8100 6550
+Wire Wire Line
+	8100 6550 8100 7200
+Wire Wire Line
+	8100 7200 8100 7800
+Wire Wire Line
+	8300 900  8500 900 
+Wire Wire Line
+	8300 1225 7900 1225
+Wire Wire Line
+	8300 1350 8300 1225
+Wire Wire Line
+	8300 1675 7900 1675
+Wire Wire Line
+	8300 1800 8300 1675
+Wire Wire Line
+	8300 2125 7900 2125
+Wire Wire Line
+	8300 2250 8300 2125
+Wire Wire Line
+	8300 2600 8300 2750
+Wire Wire Line
+	8300 3100 8300 3250
+Wire Wire Line
+	8500 1225 8500 1350
+Wire Wire Line
+	8500 1675 8500 1800
+Wire Wire Line
+	8500 2100 8500 2250
+Wire Wire Line
+	8500 2600 8500 2750
+Wire Wire Line
+	8500 2600 8900 2600
+Wire Wire Line
+	8500 3100 8500 3250
+Wire Wire Line
+	8500 3100 8900 3100
+Wire Wire Line
+	8700 4900 9500 4900
+Wire Wire Line
+	8700 5550 9500 5550
+Wire Wire Line
+	8700 6200 9500 6200
+Wire Wire Line
+	8700 6850 9500 6850
+Wire Wire Line
+	8700 7500 9500 7500
+Wire Wire Line
+	8700 8100 9500 8100
+Wire Wire Line
+	8900 1100 8900 1225
+Wire Wire Line
+	8900 1225 8500 1225
+Wire Wire Line
+	8900 1550 8900 1675
+Wire Wire Line
+	8900 1675 8500 1675
+Wire Wire Line
+	8900 2000 8900 2100
+Wire Wire Line
+	8900 2100 8500 2100
+Wire Wire Line
+	8900 2450 8900 2600
+Wire Wire Line
+	8900 2950 8900 3100
+Wire Wire Line
+	8900 3450 9100 3450
+Wire Wire Line
+	8900 4600 8900 5250
+Wire Wire Line
+	8900 5250 8900 5900
+Wire Wire Line
+	8900 5900 8900 6550
+Wire Wire Line
+	8900 6550 8900 7200
+Wire Wire Line
+	8900 7200 8900 7800
+Wire Wire Line
+	9100 1225 9100 1100
+Wire Wire Line
+	9100 1675 9100 1550
+Wire Wire Line
+	9100 2125 9100 2000
+Wire Wire Line
+	9100 2450 9100 2600
+Wire Wire Line
+	9100 2600 9500 2600
+Wire Wire Line
+	9100 2950 9100 3100
+Wire Wire Line
+	9100 3100 9500 3100
+Wire Wire Line
+	9500 900  9700 900 
+Wire Wire Line
+	9500 1225 9100 1225
+Wire Wire Line
+	9500 1350 9500 1225
+Wire Wire Line
+	9500 1675 9100 1675
+Wire Wire Line
+	9500 1800 9500 1675
+Wire Wire Line
+	9500 2125 9100 2125
+Wire Wire Line
+	9500 2250 9500 2125
+Wire Wire Line
+	9500 2600 9500 2750
+Wire Wire Line
+	9500 3100 9500 3250
+Wire Wire Line
+	9500 5550 10300 5550
+Wire Wire Line
+	9500 6200 10300 6200
+Wire Wire Line
+	9500 6850 10300 6850
+Wire Wire Line
+	9500 7500 10300 7500
+Wire Wire Line
+	9500 8100 10300 8100
+Wire Wire Line
+	9700 1225 9700 1350
+Wire Wire Line
+	9700 1675 9700 1800
+Wire Wire Line
+	9700 2125 9700 2250
+Wire Wire Line
+	9700 2600 9700 2750
+Wire Wire Line
+	9700 2600 10100 2600
+Wire Wire Line
+	9700 3100 9700 3250
+Wire Wire Line
+	9700 3100 10100 3100
+Wire Wire Line
+	9700 4600 9700 5250
+Wire Wire Line
+	9700 5250 9700 5900
+Wire Wire Line
+	9700 6550 9700 5900
+Wire Wire Line
+	9700 6550 9700 7200
+Wire Wire Line
+	9700 7200 9700 7800
+Wire Wire Line
+	10100 1100 10100 1225
+Wire Wire Line
+	10100 1225 9700 1225
+Wire Wire Line
+	10100 1550 10100 1675
+Wire Wire Line
+	10100 1675 9700 1675
+Wire Wire Line
+	10100 2000 10100 2125
+Wire Wire Line
+	10100 2125 9700 2125
+Wire Wire Line
+	10100 2450 10100 2600
+Wire Wire Line
+	10100 2950 10100 3100
+Wire Wire Line
+	10100 3450 10300 3450
+Wire Wire Line
+	10300 1225 10300 1100
+Wire Wire Line
+	10300 1675 10300 1550
+Wire Wire Line
+	10300 2125 10300 2000
+Wire Wire Line
+	10300 2450 10300 2850
+Wire Wire Line
+	10300 2850 10700 2850
+Wire Wire Line
+	10300 4900 9500 4900
+Wire Wire Line
+	10300 4900 11100 4900
+Wire Wire Line
+	10300 5550 11100 5550
+Wire Wire Line
+	10300 6200 11100 6200
+Wire Wire Line
+	10300 6850 11100 6850
+Wire Wire Line
+	10300 7500 11100 7500
+Wire Wire Line
+	10300 8100 11100 8100
+Wire Wire Line
+	10500 5250 10500 4600
+Wire Wire Line
+	10500 5900 10500 5250
+Wire Wire Line
+	10500 5900 10500 6550
+Wire Wire Line
+	10500 6550 10500 7200
+Wire Wire Line
+	10500 7200 10500 7800
+Wire Wire Line
+	10700 1225 10300 1225
+Wire Wire Line
+	10700 1350 10700 1225
+Wire Wire Line
+	10700 1675 10300 1675
+Wire Wire Line
+	10700 1800 10700 1675
+Wire Wire Line
+	10700 2125 10300 2125
+Wire Wire Line
+	10700 2250 10700 2125
+Wire Wire Line
+	10700 2850 10700 3250
+Text Label 1750 3050 0    50   ~ 0
+i2c_c
+Text Label 1800 3400 0    50   ~ 0
+i2c_d
 Text GLabel 1100 850  0    50   Input ~ 0
 LED
-Text GLabel 1100 1350 0    50   Input ~ 0
-SCL
+Text GLabel 1100 950  0    50   Input ~ 0
+DATA
 Text GLabel 1100 1250 0    50   Input ~ 0
 SDA
+Text GLabel 1100 1350 0    50   Input ~ 0
+SCL
+Text GLabel 1100 1450 0    50   Input ~ 0
+row5
 Text GLabel 1100 1550 0    50   Input ~ 0
 row0
 Text GLabel 1100 1650 0    50   Input ~ 0
@@ -69,1067 +488,110 @@ Text GLabel 1100 1850 0    50   Input ~ 0
 row3
 Text GLabel 1100 1950 0    50   Input ~ 0
 row4
-Text GLabel 2850 3950 3    50   Input ~ 0
-SDA
 Text GLabel 1200 2450 2    50   Input ~ 0
 RESET
-Text GLabel 3000 3950 3    50   Input ~ 0
-SCL
-Connection ~ 8500 3750
-Wire Wire Line
-	8500 3750 9300 3750
-Wire Wire Line
-	7100 3450 7100 4100
-Wire Wire Line
-	7700 3750 8500 3750
-Connection ~ 8700 5400
-Connection ~ 9300 5700
-Wire Wire Line
-	9300 5700 10100 5700
-Connection ~ 7900 5400
-Connection ~ 8500 5700
-Wire Wire Line
-	8500 5700 9300 5700
-Connection ~ 7100 5400
-Wire Wire Line
-	7100 5400 7100 6050
-Wire Wire Line
-	7700 5700 8500 5700
-Connection ~ 7100 4750
-Wire Wire Line
-	7100 4750 7100 5400
-Wire Wire Line
-	7700 5050 8500 5050
-Connection ~ 7900 4750
-Wire Wire Line
-	7900 4750 7900 5400
-Connection ~ 8500 5050
-Wire Wire Line
-	8500 5050 9300 5050
-Connection ~ 8700 4750
-Wire Wire Line
-	8700 4750 8700 5400
-Connection ~ 9300 5050
-Wire Wire Line
-	9300 5050 10100 5050
-Connection ~ 8700 4100
-Wire Wire Line
-	8700 4100 8700 4750
-Connection ~ 9300 4400
-Wire Wire Line
-	9300 4400 10100 4400
-Wire Wire Line
-	8700 3450 8700 4100
-Connection ~ 7900 4100
-Wire Wire Line
-	7900 4100 7900 4750
-Connection ~ 8500 4400
-Wire Wire Line
-	8500 4400 9300 4400
-Wire Wire Line
-	7900 3450 7900 4100
-Connection ~ 7100 4100
-Wire Wire Line
-	7100 4100 7100 4750
-Wire Wire Line
-	7700 4400 8500 4400
-Connection ~ 9500 4100
-Connection ~ 10100 4400
-Wire Wire Line
-	10100 4400 10900 4400
-Wire Wire Line
-	9500 3450 9500 4100
-Connection ~ 10100 5050
-Wire Wire Line
-	10100 5050 10900 5050
-Wire Wire Line
-	9500 4100 9500 4750
-Connection ~ 10100 5700
-Wire Wire Line
-	10100 5700 10900 5700
-Wire Wire Line
-	9500 5400 9500 6050
-Connection ~ 9300 6350
-Wire Wire Line
-	9300 6350 10100 6350
-Wire Wire Line
-	8700 5400 8700 6050
-Connection ~ 8500 6350
-Wire Wire Line
-	8500 6350 9300 6350
-Wire Wire Line
-	7900 5400 7900 6050
-Connection ~ 7700 6350
-Wire Wire Line
-	7700 6350 8500 6350
-Connection ~ 6900 6350
-Wire Wire Line
-	6900 6350 7700 6350
-Wire Wire Line
-	9500 5400 9500 4750
-Connection ~ 9500 5400
-Connection ~ 9500 4750
-Wire Wire Line
-	10300 4750 10300 5400
-Wire Wire Line
-	10300 4750 10300 4100
-Connection ~ 10300 4750
-Wire Wire Line
-	10300 4100 10300 3450
-Connection ~ 10300 4100
-Wire Wire Line
-	6300 3450 6300 4100
-Wire Wire Line
-	6300 4100 6300 4750
-Connection ~ 6300 4100
-Wire Wire Line
-	6300 4750 6300 5400
-Connection ~ 6300 4750
-Wire Wire Line
-	6300 5400 6300 6050
-Connection ~ 6300 5400
-Wire Wire Line
-	10100 3750 10900 3750
-Wire Wire Line
-	10100 3750 9300 3750
-Connection ~ 10100 3750
-Connection ~ 9300 3750
-Wire Wire Line
-	7700 3750 6900 3750
-Connection ~ 7700 3750
-Wire Wire Line
-	6900 3750 6050 3750
-Connection ~ 6900 3750
-Wire Wire Line
-	7700 4400 6900 4400
-Connection ~ 7700 4400
-Wire Wire Line
-	6900 4400 6050 4400
-Connection ~ 6900 4400
-Wire Wire Line
-	7700 5050 6900 5050
-Connection ~ 7700 5050
-Wire Wire Line
-	6900 5050 6050 5050
-Connection ~ 6900 5050
-Wire Wire Line
-	7700 5700 6900 5700
-Connection ~ 7700 5700
-Wire Wire Line
-	6900 5700 6050 5700
-Connection ~ 6900 5700
-Wire Wire Line
-	1100 1050 1100 1150
-Wire Wire Line
-	1100 1150 850  1150
-Connection ~ 1100 1150
-Wire Wire Line
-	1700 3200 1600 3200
-Wire Wire Line
-	1600 3300 1700 3300
-Wire Wire Line
-	1600 3400 2000 3400
-Wire Wire Line
-	1600 3050 2000 3050
-Wire Wire Line
-	1700 3000 1700 3200
-Wire Wire Line
-	1700 3300 1700 3450
-Text GLabel 1100 950  0    50   Input ~ 0
-DATA
-Text GLabel 2600 3400 2    50   Input ~ 0
-DATA
-Wire Wire Line
-	1000 3800 1150 3800
-Wire Wire Line
-	1000 3900 1100 3900
-Wire Wire Line
-	1000 4000 1050 4000
-Wire Wire Line
-	1200 4100 1000 4100
-Wire Wire Line
-	1000 4100 1000 4550
-Wire Wire Line
-	1000 4550 1200 4550
-Connection ~ 1000 4100
-Wire Wire Line
-	1050 4000 1050 4450
-Wire Wire Line
-	1050 4450 1200 4450
-Connection ~ 1050 4000
-Wire Wire Line
-	1050 4000 1200 4000
-Wire Wire Line
-	1100 3900 1100 4350
-Wire Wire Line
-	1100 4350 1200 4350
-Connection ~ 1100 3900
-Wire Wire Line
-	1100 3900 1200 3900
-Wire Wire Line
-	1150 3800 1150 4250
-Wire Wire Line
-	1150 4250 1200 4250
-Connection ~ 1150 3800
-Wire Wire Line
-	1150 3800 1200 3800
-Text GLabel 1400 4350 2    50   Input ~ 0
-SCL
-Text GLabel 1400 4250 2    50   Input ~ 0
-SDA
 Text GLabel 1400 4000 2    50   Input ~ 0
 SCL
 Text GLabel 1400 4100 2    50   Input ~ 0
 SDA
-Wire Wire Line
-	2400 950  2700 950 
-Wire Wire Line
-	2400 1150 2700 1150
-Connection ~ 2000 3400
-Wire Wire Line
-	10300 5400 10300 6050
-Connection ~ 10300 5400
-Wire Wire Line
-	10100 6350 10900 6350
-Connection ~ 10100 6350
-Text GLabel 3150 6050 2    50   Input ~ 0
-SW25A
-Text GLabel 3150 6250 2    50   Input ~ 0
-SW25B
-Wire Wire Line
-	2850 6050 3150 6050
-Wire Wire Line
-	2850 6250 3150 6250
-Text GLabel 6350 6050 2    50   Input ~ 0
-SW25A
-Text GLabel 6900 5900 0    50   Input ~ 0
-SW25B
-Wire Wire Line
-	6900 5900 6900 6050
-Wire Wire Line
-	6300 6050 6350 6050
-Text GLabel 2400 1250 2    50   Input ~ 0
-ENCA
-Text GLabel 2400 1350 2    50   Input ~ 0
-ENCB
+Text GLabel 1400 4250 2    50   Input ~ 0
+SDA
+Text GLabel 1400 4350 2    50   Input ~ 0
+SCL
 Text GLabel 2100 6050 0    50   Input ~ 0
 ENCA
 Text GLabel 2100 6250 0    50   Input ~ 0
 ENCB
-Wire Wire Line
-	2100 6250 2250 6250
-Wire Wire Line
-	2100 6050 2250 6050
-Wire Wire Line
-	2250 6150 1650 6150
-Wire Wire Line
-	1650 6150 1650 6250
-Text Label 1800 3400 0    50   ~ 0
-i2c_d
-Text Label 1750 3050 0    50   ~ 0
-i2c_c
+Text GLabel 2400 1050 2    50   Input ~ 0
+RESET
+Text GLabel 2400 1250 2    50   Input ~ 0
+ENCA
+Text GLabel 2400 1350 2    50   Input ~ 0
+ENCB
+Text GLabel 2400 1450 2    50   Input ~ 0
+col0
+Text GLabel 2400 1550 2    50   Input ~ 0
+col1
+Text GLabel 2400 1650 2    50   Input ~ 0
+col2
+Text GLabel 2400 1750 2    50   Input ~ 0
+col3
+Text GLabel 2400 1850 2    50   Input ~ 0
+col4
+Text GLabel 2400 1950 2    50   Input ~ 0
+col5
+Text GLabel 2600 3400 2    50   Input ~ 0
+DATA
+Text GLabel 2850 3950 3    50   Input ~ 0
+SDA
+Text GLabel 3000 3950 3    50   Input ~ 0
+SCL
+Text GLabel 3150 6050 2    50   Input ~ 0
+SW25A
+Text GLabel 3150 6250 2    50   Input ~ 0
+SW25B
+Text GLabel 6250 4900 0    50   Input ~ 0
+row0
+Text GLabel 6250 5550 0    50   Input ~ 0
+row1
+Text GLabel 6250 6200 0    50   Input ~ 0
+row2
+Text GLabel 6250 6850 0    50   Input ~ 0
+row3
+Text GLabel 6250 7500 0    50   Input ~ 0
+row4
+Text GLabel 6250 8100 0    50   Input ~ 0
+row5
+Text GLabel 6500 4600 1    50   Input ~ 0
+col5
+Text GLabel 6550 7200 2    50   Input ~ 0
+SW25A
+Text GLabel 7075 900  0    50   Input ~ 0
+LED
+Text GLabel 7100 7050 0    50   Input ~ 0
+SW25B
+Text GLabel 7300 4600 1    50   Input ~ 0
+col4
+Text GLabel 8100 4600 1    50   Input ~ 0
+col3
+Text GLabel 8900 4600 1    50   Input ~ 0
+col2
+Text GLabel 9700 4600 1    50   Input ~ 0
+col1
+Text GLabel 10500 4600 1    50   Input ~ 0
+col0
 $Comp
-L SofleKeyboard:SW_PUSH_LED SW1
-U 1 1 5B7225DA
-P 6600 3450
-F 0 "SW1" H 6600 3600 50  0000 C CNN
-F 1 "SW_PUSH_LED" H 6600 3350 50  0001 C CNN
-F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 6600 3450 50  0001 C CNN
-F 3 "" H 6600 3450 50  0000 C CNN
-	1    6600 3450
+L SofleKeyboard-rescue:VCC-power #PWR09
+U 1 1 5B9207DA
+P 1400 3900
+F 0 "#PWR09" H 1400 3750 50  0001 C CNN
+F 1 "VCC" V 1417 4028 50  0000 L CNN
+F 2 "" H 1400 3900 50  0001 C CNN
+F 3 "" H 1400 3900 50  0001 C CNN
+	1    1400 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L SofleKeyboard-rescue:VCC-power #PWR011
+U 1 1 5B920C33
+P 1400 4450
+F 0 "#PWR011" H 1400 4300 50  0001 C CNN
+F 1 "VCC" V 1417 4578 50  0000 L CNN
+F 2 "" H 1400 4450 50  0001 C CNN
+F 3 "" H 1400 4450 50  0001 C CNN
+	1    1400 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L SofleKeyboard-rescue:VCC-power #PWR01
+U 1 1 5B8F42DA
+P 1700 3000
+F 0 "#PWR01" H 1700 2850 50  0001 C CNN
+F 1 "VCC" H 1717 3173 50  0000 C CNN
+F 2 "" H 1700 3000 50  0001 C CNN
+F 3 "" H 1700 3000 50  0001 C CNN
+	1    1700 3000
 	1    0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard:SW_PUSH_LED SW2
-U 2 1 5F74DC46
-P 8225 975
-F 0 "SW2" H 8225 975 50  0000 C CNN
-F 1 "SW_PUSH_LED" H 8225 1249 50  0001 C CNN
-F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 8225 1225 50  0001 C CNN
-F 3 "" H 8225 1225 50  0001 C CNN
-	2    8225 975 
-	-1   0    0    1   
-$EndComp
-$Comp
-L SofleKeyboard:SW_PUSH_LED SW2
-U 1 1 5B7227CD
-P 7400 3450
-F 0 "SW2" H 7400 3600 50  0000 C CNN
-F 1 "SW_PUSH_LED" H 7400 3350 50  0001 C CNN
-F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 7400 3450 50  0001 C CNN
-F 3 "" H 7400 3450 50  0000 C CNN
-	1    7400 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard:SW_PUSH_LED SW3
-U 2 1 5F74EA54
-P 8825 975
-F 0 "SW3" H 8825 975 50  0000 C CNN
-F 1 "SW_PUSH_LED" H 8825 1249 50  0001 C CNN
-F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 8825 1225 50  0001 C CNN
-F 3 "" H 8825 1225 50  0001 C CNN
-	2    8825 975 
-	-1   0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard:SW_PUSH_LED SW4
-U 2 1 5F74FBCC
-P 9425 975
-F 0 "SW4" H 9425 975 50  0000 C CNN
-F 1 "SW_PUSH_LED" H 9425 1249 50  0001 C CNN
-F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 9425 1225 50  0001 C CNN
-F 3 "" H 9425 1225 50  0001 C CNN
-	2    9425 975 
-	-1   0    0    1   
-$EndComp
-$Comp
-L SofleKeyboard:SW_PUSH_LED SW30
-U 2 1 5F7D72C1
-P 9425 2775
-F 0 "SW30" H 9425 2775 50  0000 C CNN
-F 1 "SW_PUSH_LED" H 9425 3049 50  0001 C CNN
-F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 9425 3025 50  0001 C CNN
-F 3 "" H 9425 3025 50  0001 C CNN
-	2    9425 2775
-	-1   0    0    1   
-$EndComp
-$Comp
-L SofleKeyboard:SW_PUSH_LED SW26
-U 2 1 5F7D72BB
-P 7075 2775
-F 0 "SW26" H 7075 2775 50  0000 C CNN
-F 1 "SW_PUSH_LED" H 7075 3049 50  0001 C CNN
-F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 7075 3025 50  0001 C CNN
-F 3 "" H 7075 3025 50  0001 C CNN
-	2    7075 2775
-	-1   0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard:SW_PUSH_LED SW27
-U 2 1 5F7D72B5
-P 7625 2775
-F 0 "SW27" H 7625 2800 50  0000 C CNN
-F 1 "SW_PUSH_LED" H 7625 3049 50  0001 C CNN
-F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 7625 3025 50  0001 C CNN
-F 3 "" H 7625 3025 50  0001 C CNN
-	2    7625 2775
-	-1   0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard:SW_PUSH_LED SW28
-U 2 1 5F7D72AF
-P 8225 2775
-F 0 "SW28" H 8225 2775 50  0000 C CNN
-F 1 "SW_PUSH_LED" H 8225 3049 50  0001 C CNN
-F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 8225 3025 50  0001 C CNN
-F 3 "" H 8225 3025 50  0001 C CNN
-	2    8225 2775
-	-1   0    0    1   
-$EndComp
-$Comp
-L SofleKeyboard:SW_PUSH_LED SW13
-U 2 1 5F7D01B3
-P 7625 1875
-F 0 "SW13" H 7625 1875 50  0000 C CNN
-F 1 "SW_PUSH_LED" H 7625 2149 50  0001 C CNN
-F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 7625 2125 50  0001 C CNN
-F 3 "" H 7625 2125 50  0001 C CNN
-	2    7625 1875
-	-1   0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard:SW_PUSH_LED SW14
-U 2 1 5F7D01AD
-P 8225 1875
-F 0 "SW14" H 8225 1875 50  0000 C CNN
-F 1 "SW_PUSH_LED" H 8225 2149 50  0001 C CNN
-F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 8225 2125 50  0001 C CNN
-F 3 "" H 8225 2125 50  0001 C CNN
-	2    8225 1875
-	-1   0    0    1   
-$EndComp
-$Comp
-L SofleKeyboard:SW_PUSH_LED SW15
-U 2 1 5F7D01A7
-P 8825 1875
-F 0 "SW15" H 8825 1875 50  0000 C CNN
-F 1 "SW_PUSH_LED" H 8825 2149 50  0001 C CNN
-F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 8825 2125 50  0001 C CNN
-F 3 "" H 8825 2125 50  0001 C CNN
-	2    8825 1875
-	-1   0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard:SW_PUSH_LED SW16
-U 2 1 5F7D01A1
-P 9425 1875
-F 0 "SW16" H 9425 1875 50  0000 C CNN
-F 1 "SW_PUSH_LED" H 9425 2149 50  0001 C CNN
-F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 9425 2125 50  0001 C CNN
-F 3 "" H 9425 2125 50  0001 C CNN
-	2    9425 1875
-	-1   0    0    1   
-$EndComp
-$Comp
-L SofleKeyboard:SW_PUSH_LED SW18
-U 2 1 5F7D0195
-P 10625 1875
-F 0 "SW18" H 10625 1875 50  0000 C CNN
-F 1 "SW_PUSH_LED" H 10625 2149 50  0001 C CNN
-F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 10625 2125 50  0001 C CNN
-F 3 "" H 10625 2125 50  0001 C CNN
-	2    10625 1875
-	-1   0    0    1   
-$EndComp
-$Comp
-L SofleKeyboard:SW_PUSH_LED SW19
-U 2 1 5F7D018F
-P 7625 2325
-F 0 "SW19" H 7625 2325 50  0000 C CNN
-F 1 "SW_PUSH_LED" H 7625 2599 50  0001 C CNN
-F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 7625 2575 50  0001 C CNN
-F 3 "" H 7625 2575 50  0001 C CNN
-	2    7625 2325
-	-1   0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard:SW_PUSH_LED SW20
-U 2 1 5F7D0189
-P 8225 2325
-F 0 "SW20" H 8225 2325 50  0000 C CNN
-F 1 "SW_PUSH_LED" H 8225 2599 50  0001 C CNN
-F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 8225 2575 50  0001 C CNN
-F 3 "" H 8225 2575 50  0001 C CNN
-	2    8225 2325
-	-1   0    0    1   
-$EndComp
-$Comp
-L SofleKeyboard:SW_PUSH_LED SW21
-U 2 1 5F7D0183
-P 8825 2325
-F 0 "SW21" H 8825 2325 50  0000 C CNN
-F 1 "SW_PUSH_LED" H 8825 2599 50  0001 C CNN
-F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 8825 2575 50  0001 C CNN
-F 3 "" H 8825 2575 50  0001 C CNN
-	2    8825 2325
-	-1   0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard:SW_PUSH_LED SW22
-U 2 1 5F7D017D
-P 9425 2325
-F 0 "SW22" H 9425 2325 50  0000 C CNN
-F 1 "SW_PUSH_LED" H 9425 2599 50  0001 C CNN
-F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 9425 2575 50  0001 C CNN
-F 3 "" H 9425 2575 50  0001 C CNN
-	2    9425 2325
-	-1   0    0    1   
-$EndComp
-$Comp
-L SofleKeyboard:SW_PUSH_LED SW24
-U 2 1 5F7D0171
-P 10625 2325
-F 0 "SW24" H 10625 2325 50  0000 C CNN
-F 1 "SW_PUSH_LED" H 10625 2599 50  0001 C CNN
-F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 10625 2575 50  0001 C CNN
-F 3 "" H 10625 2575 50  0001 C CNN
-	2    10625 2325
-	-1   0    0    1   
-$EndComp
-$Comp
-L SofleKeyboard-rescue:ProMicro_2-Lily58-cache-Lily58_Pro-rescue U1
-U 1 1 5B722440
-P 1750 1400
-F 0 "U1" H 1750 2100 60  0000 C CNN
-F 1 "ProMicro" H 1750 700 60  0000 C CNN
-F 2 "SofleKeyboard-footprint:ProMicro" H 1850 350 60  0001 C CNN
-F 3 "" H 1850 350 60  0000 C CNN
-	1    1750 1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard:SW_PUSH_LED SW26
-U 1 1 5B722582
-P 7400 6050
-F 0 "SW26" H 7400 6200 50  0000 C CNN
-F 1 "SW_PUSH_LED" H 7400 5950 50  0001 C CNN
-F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 7400 6050 50  0001 C CNN
-F 3 "" H 7400 6050 50  0000 C CNN
-	1    7400 6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard-rescue:D-Lily58-cache-Lily58_Pro-rescue D1
-U 1 1 5B7226E7
-P 6900 3600
-F 0 "D1" V 6946 3521 50  0000 R CNN
-F 1 "D" V 6855 3521 50  0000 R CNN
-F 2 "Diode_SMD:crkbd-diode" H 6900 3600 50  0001 C CNN
-F 3 "" H 6900 3600 50  0001 C CNN
-	1    6900 3600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L SofleKeyboard-rescue:D-Lily58-cache-Lily58_Pro-rescue D2
-U 1 1 5B722847
-P 7700 3600
-F 0 "D2" V 7746 3521 50  0000 R CNN
-F 1 "D" V 7655 3521 50  0000 R CNN
-F 2 "Diode_SMD:crkbd-diode" H 7700 3600 50  0001 C CNN
-F 3 "" H 7700 3600 50  0001 C CNN
-	1    7700 3600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L SofleKeyboard:SW_PUSH_LED SW3
-U 1 1 5B7228F7
-P 8200 3450
-F 0 "SW3" H 8200 3600 50  0000 C CNN
-F 1 "SW_PUSH_LED" H 8200 3350 50  0001 C CNN
-F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 8200 3450 50  0001 C CNN
-F 3 "" H 8200 3450 50  0000 C CNN
-	1    8200 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard-rescue:D-Lily58-cache-Lily58_Pro-rescue D3
-U 1 1 5B722950
-P 8500 3600
-F 0 "D3" V 8546 3521 50  0000 R CNN
-F 1 "D" V 8455 3521 50  0000 R CNN
-F 2 "Diode_SMD:crkbd-diode" H 8500 3600 50  0001 C CNN
-F 3 "" H 8500 3600 50  0001 C CNN
-	1    8500 3600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L SofleKeyboard-rescue:D-Lily58-cache-Lily58_Pro-rescue D4
-U 1 1 5B722A8F
-P 9300 3600
-F 0 "D4" V 9346 3521 50  0000 R CNN
-F 1 "D" V 9255 3521 50  0000 R CNN
-F 2 "Diode_SMD:crkbd-diode" H 9300 3600 50  0001 C CNN
-F 3 "" H 9300 3600 50  0001 C CNN
-	1    9300 3600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L SofleKeyboard:SW_PUSH_LED SW5
-U 1 1 5B722B51
-P 9800 3450
-F 0 "SW5" H 9800 3600 50  0000 C CNN
-F 1 "SW_PUSH_LED" H 9800 3350 50  0001 C CNN
-F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 9800 3450 50  0001 C CNN
-F 3 "" H 9800 3450 50  0000 C CNN
-	1    9800 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard-rescue:D-Lily58-cache-Lily58_Pro-rescue D5
-U 1 1 5B722BAD
-P 10100 3600
-F 0 "D5" V 10146 3521 50  0000 R CNN
-F 1 "D" V 10055 3521 50  0000 R CNN
-F 2 "Diode_SMD:crkbd-diode" H 10100 3600 50  0001 C CNN
-F 3 "" H 10100 3600 50  0001 C CNN
-	1    10100 3600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L SofleKeyboard:SW_PUSH_LED SW6
-U 1 1 5B722CA9
-P 10600 3450
-F 0 "SW6" H 10600 3600 50  0000 C CNN
-F 1 "SW_PUSH_LED" H 10600 3400 50  0001 C CNN
-F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 10600 3450 50  0001 C CNN
-F 3 "" H 10600 3450 50  0000 C CNN
-	1    10600 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard-rescue:D-Lily58-cache-Lily58_Pro-rescue D6
-U 1 1 5B722FE1
-P 10900 3600
-F 0 "D6" V 10946 3521 50  0000 R CNN
-F 1 "D" V 10855 3521 50  0000 R CNN
-F 2 "Diode_SMD:crkbd-diode" H 10900 3600 50  0001 C CNN
-F 3 "" H 10900 3600 50  0001 C CNN
-	1    10900 3600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L SofleKeyboard:SW_PUSH_LED SW8
-U 1 1 5B723388
-P 7400 4100
-F 0 "SW8" H 7400 4250 50  0000 C CNN
-F 1 "SW_PUSH_LED" H 7400 4000 50  0001 C CNN
-F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 7400 4100 50  0001 C CNN
-F 3 "" H 7400 4100 50  0000 C CNN
-	1    7400 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard:SW_PUSH_LED SW9
-U 1 1 5B723731
-P 8200 4100
-F 0 "SW9" H 8200 4250 50  0000 C CNN
-F 1 "SW_PUSH_LED" H 8200 4000 50  0001 C CNN
-F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 8200 4100 50  0001 C CNN
-F 3 "" H 8200 4100 50  0000 C CNN
-	1    8200 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard:SW_PUSH_LED SW10
-U 1 1 5B7237A6
-P 9000 4100
-F 0 "SW10" H 9000 4250 50  0000 C CNN
-F 1 "SW_PUSH_LED" H 9000 4000 50  0001 C CNN
-F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 9000 4100 50  0001 C CNN
-F 3 "" H 9000 4100 50  0000 C CNN
-	1    9000 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard:SW_PUSH_LED SW11
-U 1 1 5B72387D
-P 9800 4100
-F 0 "SW11" H 9800 4250 50  0000 C CNN
-F 1 "SW_PUSH_LED" H 9800 4000 50  0001 C CNN
-F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 9800 4100 50  0001 C CNN
-F 3 "" H 9800 4100 50  0000 C CNN
-	1    9800 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard:SW_PUSH_LED SW12
-U 1 1 5B723AD3
-P 10600 4100
-F 0 "SW12" H 10600 4250 50  0000 C CNN
-F 1 "SW_PUSH_LED" H 10600 4000 50  0001 C CNN
-F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 10600 4100 50  0001 C CNN
-F 3 "" H 10600 4100 50  0000 C CNN
-	1    10600 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard:SW_PUSH_LED SW7
-U 1 1 5B723C9D
-P 6600 4100
-F 0 "SW7" H 6600 4250 50  0000 C CNN
-F 1 "SW_PUSH_LED" H 6600 4000 50  0001 C CNN
-F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 6600 4100 50  0001 C CNN
-F 3 "" H 6600 4100 50  0000 C CNN
-	1    6600 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard-rescue:D-Lily58-cache-Lily58_Pro-rescue D7
-U 1 1 5B723D94
-P 6900 4250
-F 0 "D7" V 6946 4171 50  0000 R CNN
-F 1 "D" V 6855 4171 50  0000 R CNN
-F 2 "Diode_SMD:crkbd-diode" H 6900 4250 50  0001 C CNN
-F 3 "" H 6900 4250 50  0001 C CNN
-	1    6900 4250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L SofleKeyboard-rescue:D-Lily58-cache-Lily58_Pro-rescue D8
-U 1 1 5B723E5F
-P 7700 4250
-F 0 "D8" V 7746 4171 50  0000 R CNN
-F 1 "D" V 7655 4171 50  0000 R CNN
-F 2 "Diode_SMD:crkbd-diode" H 7700 4250 50  0001 C CNN
-F 3 "" H 7700 4250 50  0001 C CNN
-	1    7700 4250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L SofleKeyboard-rescue:D-Lily58-cache-Lily58_Pro-rescue D9
-U 1 1 5B723FA1
-P 8500 4250
-F 0 "D9" V 8546 4171 50  0000 R CNN
-F 1 "D" V 8455 4171 50  0000 R CNN
-F 2 "Diode_SMD:crkbd-diode" H 8500 4250 50  0001 C CNN
-F 3 "" H 8500 4250 50  0001 C CNN
-	1    8500 4250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L SofleKeyboard-rescue:D-Lily58-cache-Lily58_Pro-rescue D10
-U 1 1 5B7240EA
-P 9300 4250
-F 0 "D10" V 9346 4171 50  0000 R CNN
-F 1 "D" V 9255 4171 50  0000 R CNN
-F 2 "Diode_SMD:crkbd-diode" H 9300 4250 50  0001 C CNN
-F 3 "" H 9300 4250 50  0001 C CNN
-	1    9300 4250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L SofleKeyboard-rescue:D-Lily58-cache-Lily58_Pro-rescue D11
-U 1 1 5B72424D
-P 10100 4250
-F 0 "D11" V 10146 4171 50  0000 R CNN
-F 1 "D" V 10055 4171 50  0000 R CNN
-F 2 "Diode_SMD:crkbd-diode" H 10100 4250 50  0001 C CNN
-F 3 "" H 10100 4250 50  0001 C CNN
-	1    10100 4250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L SofleKeyboard-rescue:D-Lily58-cache-Lily58_Pro-rescue D12
-U 1 1 5B7243C0
-P 10900 4250
-F 0 "D12" V 10946 4171 50  0000 R CNN
-F 1 "D" V 10855 4171 50  0000 R CNN
-F 2 "Diode_SMD:crkbd-diode" H 10900 4250 50  0001 C CNN
-F 3 "" H 10900 4250 50  0001 C CNN
-	1    10900 4250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L SofleKeyboard:SW_PUSH_LED SW13
-U 1 1 5B7250AD
-P 6600 4750
-F 0 "SW13" H 6600 4900 50  0000 C CNN
-F 1 "SW_PUSH_LED" H 6600 4650 50  0001 C CNN
-F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 6600 4750 50  0001 C CNN
-F 3 "" H 6600 4750 50  0000 C CNN
-	1    6600 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard:SW_PUSH_LED SW14
-U 1 1 5B725133
-P 7400 4750
-F 0 "SW14" H 7400 4900 50  0000 C CNN
-F 1 "SW_PUSH_LED" H 7400 4650 50  0001 C CNN
-F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 7400 4750 50  0001 C CNN
-F 3 "" H 7400 4750 50  0000 C CNN
-	1    7400 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard:SW_PUSH_LED SW15
-U 1 1 5B7251BF
-P 8200 4750
-F 0 "SW15" H 8200 4900 50  0000 C CNN
-F 1 "SW_PUSH_LED" H 8200 4650 50  0001 C CNN
-F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 8200 4750 50  0001 C CNN
-F 3 "" H 8200 4750 50  0000 C CNN
-	1    8200 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard:SW_PUSH_LED SW16
-U 1 1 5B72524E
-P 9000 4750
-F 0 "SW16" H 9000 4900 50  0000 C CNN
-F 1 "SW_PUSH_LED" H 9000 4650 50  0001 C CNN
-F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 9000 4750 50  0001 C CNN
-F 3 "" H 9000 4750 50  0000 C CNN
-	1    9000 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard:SW_PUSH_LED SW17
-U 1 1 5B7252F1
-P 9800 4750
-F 0 "SW17" H 9800 4900 50  0000 C CNN
-F 1 "SW_PUSH_LED" H 9800 4650 50  0001 C CNN
-F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 9800 4750 50  0001 C CNN
-F 3 "" H 9800 4750 50  0000 C CNN
-	1    9800 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard:SW_PUSH_LED SW18
-U 1 1 5B725398
-P 10600 4750
-F 0 "SW18" H 10600 4900 50  0000 C CNN
-F 1 "SW_PUSH_LED" H 10600 4650 50  0001 C CNN
-F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 10600 4750 50  0001 C CNN
-F 3 "" H 10600 4750 50  0000 C CNN
-	1    10600 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard-rescue:D-Lily58-cache-Lily58_Pro-rescue D13
-U 1 1 5B7254EE
-P 6900 4900
-F 0 "D13" V 6946 4821 50  0000 R CNN
-F 1 "D" V 6855 4821 50  0000 R CNN
-F 2 "Diode_SMD:crkbd-diode" H 6900 4900 50  0001 C CNN
-F 3 "" H 6900 4900 50  0001 C CNN
-	1    6900 4900
-	0    -1   -1   0   
-$EndComp
-$Comp
-L SofleKeyboard-rescue:D-Lily58-cache-Lily58_Pro-rescue D14
-U 1 1 5B7255FF
-P 7700 4900
-F 0 "D14" V 7746 4821 50  0000 R CNN
-F 1 "D" V 7655 4821 50  0000 R CNN
-F 2 "Diode_SMD:crkbd-diode" H 7700 4900 50  0001 C CNN
-F 3 "" H 7700 4900 50  0001 C CNN
-	1    7700 4900
-	0    -1   -1   0   
-$EndComp
-$Comp
-L SofleKeyboard-rescue:D-Lily58-cache-Lily58_Pro-rescue D15
-U 1 1 5B72571C
-P 8500 4900
-F 0 "D15" V 8546 4821 50  0000 R CNN
-F 1 "D" V 8455 4821 50  0000 R CNN
-F 2 "Diode_SMD:crkbd-diode" H 8500 4900 50  0001 C CNN
-F 3 "" H 8500 4900 50  0001 C CNN
-	1    8500 4900
-	0    -1   -1   0   
-$EndComp
-$Comp
-L SofleKeyboard-rescue:D-Lily58-cache-Lily58_Pro-rescue D16
-U 1 1 5B725841
-P 9300 4900
-F 0 "D16" V 9346 4821 50  0000 R CNN
-F 1 "D" V 9255 4821 50  0000 R CNN
-F 2 "Diode_SMD:crkbd-diode" H 9300 4900 50  0001 C CNN
-F 3 "" H 9300 4900 50  0001 C CNN
-	1    9300 4900
-	0    -1   -1   0   
-$EndComp
-$Comp
-L SofleKeyboard-rescue:D-Lily58-cache-Lily58_Pro-rescue D17
-U 1 1 5B72596D
-P 10100 4900
-F 0 "D17" V 10146 4821 50  0000 R CNN
-F 1 "D" V 10055 4821 50  0000 R CNN
-F 2 "Diode_SMD:crkbd-diode" H 10100 4900 50  0001 C CNN
-F 3 "" H 10100 4900 50  0001 C CNN
-	1    10100 4900
-	0    -1   -1   0   
-$EndComp
-$Comp
-L SofleKeyboard-rescue:D-Lily58-cache-Lily58_Pro-rescue D18
-U 1 1 5B725AA2
-P 10900 4900
-F 0 "D18" V 10946 4821 50  0000 R CNN
-F 1 "D" V 10855 4821 50  0000 R CNN
-F 2 "Diode_SMD:crkbd-diode" H 10900 4900 50  0001 C CNN
-F 3 "" H 10900 4900 50  0001 C CNN
-	1    10900 4900
-	0    -1   -1   0   
-$EndComp
-$Comp
-L SofleKeyboard:SW_PUSH_LED SW21
-U 1 1 5B726F89
-P 8200 5400
-F 0 "SW21" H 8200 5550 50  0000 C CNN
-F 1 "SW_PUSH_LED" H 8200 5300 50  0001 C CNN
-F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 8200 5400 50  0001 C CNN
-F 3 "" H 8200 5400 50  0000 C CNN
-	1    8200 5400
-	1    0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard:SW_PUSH_LED SW22
-U 1 1 5B727035
-P 9000 5400
-F 0 "SW22" H 9000 5550 50  0000 C CNN
-F 1 "SW_PUSH_LED" H 9000 5300 50  0001 C CNN
-F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 9000 5400 50  0001 C CNN
-F 3 "" H 9000 5400 50  0000 C CNN
-	1    9000 5400
-	1    0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard:SW_PUSH_LED SW24
-U 1 1 5B7271A5
-P 10600 5400
-F 0 "SW24" H 10600 5550 50  0000 C CNN
-F 1 "SW_PUSH_LED" H 10600 5300 50  0001 C CNN
-F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 10600 5400 50  0001 C CNN
-F 3 "" H 10600 5400 50  0000 C CNN
-	1    10600 5400
-	1    0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard:SW_PUSH_LED SW20
-U 1 1 5B727256
-P 7400 5400
-F 0 "SW20" H 7400 5550 50  0000 C CNN
-F 1 "SW_PUSH_LED" H 7400 5300 50  0001 C CNN
-F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 7400 5400 50  0001 C CNN
-F 3 "" H 7400 5400 50  0000 C CNN
-	1    7400 5400
-	1    0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard:SW_PUSH_LED SW19
-U 1 1 5B727312
-P 6600 5400
-F 0 "SW19" H 6600 5550 50  0000 C CNN
-F 1 "SW_PUSH_LED" H 6600 5300 50  0001 C CNN
-F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 6600 5400 50  0001 C CNN
-F 3 "" H 6600 5400 50  0000 C CNN
-	1    6600 5400
-	1    0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard-rescue:D-Lily58-cache-Lily58_Pro-rescue D19
-U 1 1 5B72767A
-P 6900 5550
-F 0 "D19" V 6946 5471 50  0000 R CNN
-F 1 "D" V 6855 5471 50  0000 R CNN
-F 2 "Diode_SMD:crkbd-diode" H 6900 5550 50  0001 C CNN
-F 3 "" H 6900 5550 50  0001 C CNN
-	1    6900 5550
-	0    -1   -1   0   
-$EndComp
-$Comp
-L SofleKeyboard-rescue:D-Lily58-cache-Lily58_Pro-rescue D20
-U 1 1 5B7277CE
-P 7700 5550
-F 0 "D20" V 7746 5471 50  0000 R CNN
-F 1 "D" V 7655 5471 50  0000 R CNN
-F 2 "Diode_SMD:crkbd-diode" H 7700 5550 50  0001 C CNN
-F 3 "" H 7700 5550 50  0001 C CNN
-	1    7700 5550
-	0    -1   -1   0   
-$EndComp
-$Comp
-L SofleKeyboard-rescue:D-Lily58-cache-Lily58_Pro-rescue D21
-U 1 1 5B727929
-P 8500 5550
-F 0 "D21" V 8546 5471 50  0000 R CNN
-F 1 "D" V 8455 5471 50  0000 R CNN
-F 2 "Diode_SMD:crkbd-diode" H 8500 5550 50  0001 C CNN
-F 3 "" H 8500 5550 50  0001 C CNN
-	1    8500 5550
-	0    -1   -1   0   
-$EndComp
-$Comp
-L SofleKeyboard-rescue:D-Lily58-cache-Lily58_Pro-rescue D22
-U 1 1 5B727A89
-P 9300 5550
-F 0 "D22" V 9346 5471 50  0000 R CNN
-F 1 "D" V 9255 5471 50  0000 R CNN
-F 2 "Diode_SMD:crkbd-diode" H 9300 5550 50  0001 C CNN
-F 3 "" H 9300 5550 50  0001 C CNN
-	1    9300 5550
-	0    -1   -1   0   
-$EndComp
-$Comp
-L SofleKeyboard-rescue:D-Lily58-cache-Lily58_Pro-rescue D23
-U 1 1 5B727BFE
-P 10100 5550
-F 0 "D23" V 10146 5471 50  0000 R CNN
-F 1 "D" V 10055 5471 50  0000 R CNN
-F 2 "Diode_SMD:crkbd-diode" H 10100 5550 50  0001 C CNN
-F 3 "" H 10100 5550 50  0001 C CNN
-	1    10100 5550
-	0    -1   -1   0   
-$EndComp
-$Comp
-L SofleKeyboard-rescue:D-Lily58-cache-Lily58_Pro-rescue D24
-U 1 1 5B727D79
-P 10900 5550
-F 0 "D24" V 10946 5471 50  0000 R CNN
-F 1 "D" V 10855 5471 50  0000 R CNN
-F 2 "Diode_SMD:crkbd-diode" H 10900 5550 50  0001 C CNN
-F 3 "" H 10900 5550 50  0001 C CNN
-	1    10900 5550
-	0    -1   -1   0   
-$EndComp
-$Comp
-L SofleKeyboard:SW_PUSH_LED SW27
-U 1 1 5B7293B0
-P 8200 6050
-F 0 "SW27" H 8200 6200 50  0000 C CNN
-F 1 "SW_PUSH_LED" H 8200 5950 50  0001 C CNN
-F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 8200 6050 50  0001 C CNN
-F 3 "" H 8200 6050 50  0000 C CNN
-	1    8200 6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard:SW_PUSH_LED SW28
-U 1 1 5B734347
-P 9000 6050
-F 0 "SW28" H 9000 6200 50  0000 C CNN
-F 1 "SW_PUSH_LED" H 9000 5950 50  0001 C CNN
-F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 9000 6050 50  0001 C CNN
-F 3 "" H 9000 6050 50  0000 C CNN
-	1    9000 6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard:SW_PUSH_LED SW29
-U 1 1 5B73449B
-P 9800 6050
-F 0 "SW29" H 9800 6200 50  0000 C CNN
-F 1 "SW_PUSH_LED" H 9800 5950 50  0001 C CNN
-F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 9800 6050 50  0001 C CNN
-F 3 "" H 9800 6050 50  0000 C CNN
-	1    9800 6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard-rescue:D-Lily58-cache-Lily58_Pro-rescue D25
-U 1 1 5B734844
-P 6900 6200
-F 0 "D25" V 6946 6121 50  0000 R CNN
-F 1 "D" V 6855 6121 50  0000 R CNN
-F 2 "Diode_SMD:crkbd-diode" H 6900 6200 50  0001 C CNN
-F 3 "" H 6900 6200 50  0001 C CNN
-	1    6900 6200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L SofleKeyboard-rescue:D-Lily58-cache-Lily58_Pro-rescue D26
-U 1 1 5B7349D1
-P 7700 6200
-F 0 "D26" V 7746 6121 50  0000 R CNN
-F 1 "D" V 7655 6121 50  0000 R CNN
-F 2 "Diode_SMD:crkbd-diode" H 7700 6200 50  0001 C CNN
-F 3 "" H 7700 6200 50  0001 C CNN
-	1    7700 6200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L SofleKeyboard-rescue:D-Lily58-cache-Lily58_Pro-rescue D27
-U 1 1 5B734B62
-P 8500 6200
-F 0 "D27" V 8546 6121 50  0000 R CNN
-F 1 "D" V 8455 6121 50  0000 R CNN
-F 2 "Diode_SMD:crkbd-diode" H 8500 6200 50  0001 C CNN
-F 3 "" H 8500 6200 50  0001 C CNN
-	1    8500 6200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L SofleKeyboard-rescue:D-Lily58-cache-Lily58_Pro-rescue D28
-U 1 1 5B734CF9
-P 9300 6200
-F 0 "D28" V 9346 6121 50  0000 R CNN
-F 1 "D" V 9255 6121 50  0000 R CNN
-F 2 "Diode_SMD:crkbd-diode" H 9300 6200 50  0001 C CNN
-F 3 "" H 9300 6200 50  0001 C CNN
-	1    9300 6200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L SofleKeyboard-rescue:D-Lily58-cache-Lily58_Pro-rescue D29
-U 1 1 5B734F9E
-P 10100 6200
-F 0 "D29" V 10146 6121 50  0000 R CNN
-F 1 "D" V 10055 6121 50  0000 R CNN
-F 2 "Diode_SMD:crkbd-diode" H 10100 6200 50  0001 C CNN
-F 3 "" H 10100 6200 50  0001 C CNN
-	1    10100 6200
-	0    -1   -1   0   
 $EndComp
 $Comp
 L SofleKeyboard-rescue:VCC-Lily58-cache-Lily58_Pro-rescue #PWR04
@@ -1165,47 +627,25 @@ F 3 "" H 3000 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SofleKeyboard-rescue:R-Lily58-cache-Lily58_Pro-rescue R1
-U 1 1 5B739F4A
-P 2850 3800
-F 0 "R1" V 2950 3800 50  0000 C BNN
-F 1 "R" V 2850 3800 50  0000 C CNN
-F 2 "SofleKeyboard-footprint:RESISTOR_mini" V 2780 3800 50  0001 C CNN
-F 3 "" H 2850 3800 50  0001 C CNN
-	1    2850 3800
+L SofleKeyboard-rescue:VCC-Lily58-cache-Lily58_Pro-rescue #PWR013
+U 1 1 5B74C8DE
+P 3900 7500
+F 0 "#PWR013" H 3900 7350 50  0001 C CNN
+F 1 "VCC" H 3917 7673 50  0000 C CNN
+F 2 "" H 3900 7500 50  0001 C CNN
+F 3 "" H 3900 7500 50  0001 C CNN
+	1    3900 7500
 	1    0    0    -1  
 $EndComp
 $Comp
-L SofleKeyboard-rescue:R-Lily58-cache-Lily58_Pro-rescue R2
-U 1 1 5B73A034
-P 3000 3800
-F 0 "R2" V 3100 3800 50  0000 C BNN
-F 1 "R" V 3000 3800 50  0000 C CNN
-F 2 "SofleKeyboard-footprint:RESISTOR_mini" V 2930 3800 50  0001 C CNN
-F 3 "" H 3000 3800 50  0001 C CNN
-	1    3000 3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard-rescue:MJ-4PP-9-Lily58-cache-Lily58_Pro-rescue J2
-U 1 1 5B742D8C
-P 1150 3200
-F 0 "J2" H 1100 3500 60  0000 C CNN
-F 1 "4PIN" H 1100 2900 60  0000 C CNN
-F 2 "SofleKeyboard-footprint:MJ-4PP-9" H 1150 3150 60  0001 C CNN
-F 3 "" H 1150 3150 60  0000 C CNN
-	1    1150 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard-rescue:GND-Lily58-cache-Lily58_Pro-rescue #PWR010
-U 1 1 5B74C10F
-P 900 2450
-F 0 "#PWR010" H 900 2200 50  0001 C CNN
-F 1 "GND" H 905 2277 50  0000 C CNN
-F 2 "" H 900 2450 50  0001 C CNN
-F 3 "" H 900 2450 50  0001 C CNN
-	1    900  2450
+L power:VCC #PWR0104
+U 1 1 604393F0
+P 8900 2250
+F 0 "#PWR0104" H 8900 2100 50  0001 C CNN
+F 1 "VCC" H 8915 2423 50  0000 C CNN
+F 2 "" H 8900 2250 50  0001 C CNN
+F 3 "" H 8900 2250 50  0001 C CNN
+	1    8900 2250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1220,28 +660,6 @@ F 3 "" H 3550 7500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SofleKeyboard-rescue:GND-Lily58-cache-Lily58_Pro-rescue #PWR012
-U 1 1 5B74C7EB
-P 3550 7500
-F 0 "#PWR012" H 3550 7250 50  0001 C CNN
-F 1 "GND" H 3555 7327 50  0000 C CNN
-F 2 "" H 3550 7500 50  0001 C CNN
-F 3 "" H 3550 7500 50  0001 C CNN
-	1    3550 7500
-	1    0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard-rescue:VCC-Lily58-cache-Lily58_Pro-rescue #PWR013
-U 1 1 5B74C8DE
-P 3900 7500
-F 0 "#PWR013" H 3900 7350 50  0001 C CNN
-F 1 "VCC" H 3917 7673 50  0000 C CNN
-F 2 "" H 3900 7500 50  0001 C CNN
-F 3 "" H 3900 7500 50  0001 C CNN
-	1    3900 7500
-	1    0    0    -1  
-$EndComp
-$Comp
 L SofleKeyboard-rescue:PWR_FLAG-Lily58-cache-Lily58_Pro-rescue #FLG02
 U 1 1 5B74C9D1
 P 3900 7500
@@ -1250,182 +668,6 @@ F 1 "PWR_FLAG" H 3900 7673 50  0000 C CNN
 F 2 "" H 3900 7500 50  0001 C CNN
 F 3 "" H 3900 7500 50  0001 C CNN
 	1    3900 7500
-	-1   0    0    1   
-$EndComp
-$Comp
-L SofleKeyboard-rescue:HOLE-Lily58-cache-Lily58_Pro-rescue TH1
-U 1 1 5B74CE27
-P 750 7500
-F 0 "TH1" H 750 7500 60  0000 C CNN
-F 1 "HOLE" H 750 7400 60  0000 C CNN
-F 2 "SofleKeyboard-footprint:M2_HOLE_PCB" H 750 7500 60  0001 C CNN
-F 3 "" H 750 7500 60  0000 C CNN
-	1    750  7500
-	1    0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard-rescue:HOLE-Lily58-cache-Lily58_Pro-rescue TH2
-U 1 1 5B74D0C7
-P 1100 7500
-F 0 "TH2" H 1100 7500 60  0000 C CNN
-F 1 "HOLE" H 1100 7400 60  0000 C CNN
-F 2 "SofleKeyboard-footprint:M2_HOLE_PCB" H 1100 7500 60  0001 C CNN
-F 3 "" H 1100 7500 60  0000 C CNN
-	1    1100 7500
-	1    0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard-rescue:HOLE-Lily58-cache-Lily58_Pro-rescue TH4
-U 1 1 5B74D1C0
-P 2100 7500
-F 0 "TH4" H 2100 7500 60  0000 C CNN
-F 1 "HOLE" H 2100 7400 60  0000 C CNN
-F 2 "SofleKeyboard-footprint:HOLE_M2_TH" H 2100 7500 60  0001 C CNN
-F 3 "" H 2100 7500 60  0000 C CNN
-	1    2100 7500
-	1    0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard-rescue:HOLE-Lily58-cache-Lily58_Pro-rescue TH5
-U 1 1 5B74D78B
-P 2450 7500
-F 0 "TH5" H 2450 7500 60  0000 C CNN
-F 1 "HOLE" H 2450 7400 60  0000 C CNN
-F 2 "SofleKeyboard-footprint:HOLE_M2_TH" H 2450 7500 60  0001 C CNN
-F 3 "" H 2450 7500 60  0000 C CNN
-	1    2450 7500
-	1    0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard-rescue:HOLE-Lily58-cache-Lily58_Pro-rescue TH6
-U 1 1 5B74D88C
-P 2800 7500
-F 0 "TH6" H 2800 7500 60  0000 C CNN
-F 1 "HOLE" H 2800 7400 60  0000 C CNN
-F 2 "SofleKeyboard-footprint:HOLE_M2_TH" H 2800 7500 60  0001 C CNN
-F 3 "" H 2800 7500 60  0000 C CNN
-	1    2800 7500
-	1    0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard-rescue:HOLE-Lily58-cache-Lily58_Pro-rescue TH7
-U 1 1 5B74D98F
-P 3150 7500
-F 0 "TH7" H 3150 7500 60  0000 C CNN
-F 1 "HOLE" H 3150 7400 60  0000 C CNN
-F 2 "SofleKeyboard-footprint:HOLE_M2_TH" H 3150 7500 60  0001 C CNN
-F 3 "" H 3150 7500 60  0000 C CNN
-	1    3150 7500
-	1    0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard-rescue:HOLE-Lily58-cache-Lily58_Pro-rescue TH3
-U 1 1 5B74DA95
-P 1750 7500
-F 0 "TH3" H 1750 7500 60  0000 C CNN
-F 1 "HOLE" H 1750 7400 60  0000 C CNN
-F 2 "SofleKeyboard-footprint:HOLE_M2_TH" H 1750 7500 60  0001 C CNN
-F 3 "" H 1750 7500 60  0000 C CNN
-	1    1750 7500
-	1    0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard-rescue:SW_RST-Lily58-cache-Lily58_Pro-rescue RSW1
-U 1 1 5B8CE7E7
-P 1050 2450
-F 0 "RSW1" H 1050 2706 40  0000 C CNN
-F 1 "SW_RST" H 1050 2623 50  0000 C CNN
-F 2 "SofleKeyboard-footprint:TACT_SWITCH_TVBP06" H 1050 2450 50  0001 C CNN
-F 3 "" H 1050 2450 50  0001 C CNN
-	1    1050 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard-rescue:GND-Lily58-cache-Lily58_Pro-rescue #PWR0101
-U 1 1 5B8CD05E
-P 2700 950
-F 0 "#PWR0101" H 2700 700 50  0001 C CNN
-F 1 "GND" H 2700 800 50  0000 C CNN
-F 2 "" H 2700 950 50  0001 C CNN
-F 3 "" H 2700 950 50  0001 C CNN
-	1    2700 950 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L SofleKeyboard-rescue:GND-Lily58-cache-Lily58_Pro-rescue #PWR0102
-U 1 1 5B8CD27F
-P 850 1150
-F 0 "#PWR0102" H 850 900 50  0001 C CNN
-F 1 "GND" H 850 1000 50  0000 C CNN
-F 2 "" H 850 1150 50  0001 C CNN
-F 3 "" H 850 1150 50  0001 C CNN
-	1    850  1150
-	0    1    1    0   
-$EndComp
-$Comp
-L SofleKeyboard-rescue:GND-power #PWR02
-U 1 1 5B8F3218
-P 1700 3450
-F 0 "#PWR02" H 1700 3200 50  0001 C CNN
-F 1 "GND" H 1705 3277 50  0000 C CNN
-F 2 "" H 1700 3450 50  0001 C CNN
-F 3 "" H 1700 3450 50  0001 C CNN
-	1    1700 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard-rescue:VCC-power #PWR01
-U 1 1 5B8F42DA
-P 1700 3000
-F 0 "#PWR01" H 1700 2850 50  0001 C CNN
-F 1 "VCC" H 1717 3173 50  0000 C CNN
-F 2 "" H 1700 3000 50  0001 C CNN
-F 3 "" H 1700 3000 50  0001 C CNN
-	1    1700 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard-rescue:i2c_pin-Lily58-cache-Lily58_Pro-rescue P1
-U 1 1 5B8F6780
-P 2000 2850
-F 0 "P1" H 2000 2950 50  0000 C CNN
-F 1 "i2c_pin" V 2100 2850 50  0000 C CNN
-F 2 "SofleKeyboard-footprint:1pin_conn" H 2000 2850 50  0001 C CNN
-F 3 "" H 2000 2850 50  0001 C CNN
-	1    2000 2850
-	0    -1   -1   0   
-$EndComp
-$Comp
-L SofleKeyboard-rescue:i2c_pin-Lily58-cache-Lily58_Pro-rescue P2
-U 1 1 5B8F6980
-P 2000 3600
-F 0 "P2" H 2000 3500 50  0000 C CNN
-F 1 "i2c_pin" V 2100 3600 50  0000 C CNN
-F 2 "SofleKeyboard-footprint:1pin_conn" H 2000 3600 50  0001 C CNN
-F 3 "" H 2000 3600 50  0001 C CNN
-	1    2000 3600
-	0    1    1    0   
-$EndComp
-$Comp
-L SofleKeyboard-rescue:Jumper-Device W1
-U 1 1 5B900157
-P 2300 3400
-F 0 "W1" H 2300 3350 50  0000 C CNN
-F 1 "jumper" H 2300 3550 50  0000 C CNN
-F 2 "SofleKeyboard-footprint:jumper_data" H 2300 3400 50  0001 C CNN
-F 3 "" H 2300 3400 50  0000 C CNN
-	1    2300 3400
-	-1   0    0    1   
-$EndComp
-$Comp
-L SofleKeyboard-rescue:OLED-Lily58-cache-Lily58_Pro-rescue J3
-U 1 1 5B91007B
-P 800 3950
-F 0 "J3" H 800 3700 50  0000 C CNN
-F 1 "OLED" H 800 4200 50  0000 C CNN
-F 2 "SofleKeyboard-footprint:OLED_4Pin" H 800 3950 50  0001 C CNN
-F 3 "" H 800 3950 50  0000 C CNN
-	1    800  3950
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -1517,6 +759,28 @@ F 3 "~" H 1300 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
+L SofleKeyboard-rescue:GND-Lily58-cache-Lily58_Pro-rescue #PWR0102
+U 1 1 5B8CD27F
+P 850 1150
+F 0 "#PWR0102" H 850 900 50  0001 C CNN
+F 1 "GND" H 850 1000 50  0000 C CNN
+F 2 "" H 850 1150 50  0001 C CNN
+F 3 "" H 850 1150 50  0001 C CNN
+	1    850  1150
+	0    1    1    0   
+$EndComp
+$Comp
+L SofleKeyboard-rescue:GND-Lily58-cache-Lily58_Pro-rescue #PWR010
+U 1 1 5B74C10F
+P 900 2450
+F 0 "#PWR010" H 900 2200 50  0001 C CNN
+F 1 "GND" H 905 2277 50  0000 C CNN
+F 2 "" H 900 2450 50  0001 C CNN
+F 3 "" H 900 2450 50  0001 C CNN
+	1    900  2450
+	1    0    0    -1  
+$EndComp
+$Comp
 L SofleKeyboard-rescue:GND-power #PWR03
 U 1 1 5B9205B8
 P 1400 3800
@@ -1526,17 +790,6 @@ F 2 "" H 1400 3800 50  0001 C CNN
 F 3 "" H 1400 3800 50  0001 C CNN
 	1    1400 3800
 	0    -1   -1   0   
-$EndComp
-$Comp
-L SofleKeyboard-rescue:VCC-power #PWR09
-U 1 1 5B9207DA
-P 1400 3900
-F 0 "#PWR09" H 1400 3750 50  0001 C CNN
-F 1 "VCC" V 1417 4028 50  0000 L CNN
-F 2 "" H 1400 3900 50  0001 C CNN
-F 3 "" H 1400 3900 50  0001 C CNN
-	1    1400 3900
-	0    1    1    0   
 $EndComp
 $Comp
 L SofleKeyboard-rescue:GND-power #PWR014
@@ -1550,37 +803,1438 @@ F 3 "" H 1400 4550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SofleKeyboard-rescue:VCC-power #PWR011
-U 1 1 5B920C33
-P 1400 4450
-F 0 "#PWR011" H 1400 4300 50  0001 C CNN
-F 1 "VCC" V 1417 4578 50  0000 L CNN
-F 2 "" H 1400 4450 50  0001 C CNN
-F 3 "" H 1400 4450 50  0001 C CNN
-	1    1400 4450
+L SofleKeyboard-rescue:GND-power #PWR0103
+U 1 1 5DA35FE6
+P 1650 6250
+F 0 "#PWR0103" H 1650 6000 50  0001 C CNN
+F 1 "GND" H 1655 6077 50  0000 C CNN
+F 2 "" H 1650 6250 50  0001 C CNN
+F 3 "" H 1650 6250 50  0001 C CNN
+	1    1650 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard-rescue:GND-power #PWR02
+U 1 1 5B8F3218
+P 1700 3450
+F 0 "#PWR02" H 1700 3200 50  0001 C CNN
+F 1 "GND" H 1705 3277 50  0000 C CNN
+F 2 "" H 1700 3450 50  0001 C CNN
+F 3 "" H 1700 3450 50  0001 C CNN
+	1    1700 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard-rescue:GND-Lily58-cache-Lily58_Pro-rescue #PWR0101
+U 1 1 5B8CD05E
+P 2700 950
+F 0 "#PWR0101" H 2700 700 50  0001 C CNN
+F 1 "GND" H 2700 800 50  0000 C CNN
+F 2 "" H 2700 950 50  0001 C CNN
+F 3 "" H 2700 950 50  0001 C CNN
+	1    2700 950 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SofleKeyboard-rescue:GND-Lily58-cache-Lily58_Pro-rescue #PWR012
+U 1 1 5B74C7EB
+P 3550 7500
+F 0 "#PWR012" H 3550 7250 50  0001 C CNN
+F 1 "GND" H 3555 7327 50  0000 C CNN
+F 2 "" H 3550 7500 50  0001 C CNN
+F 3 "" H 3550 7500 50  0001 C CNN
+	1    3550 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard-rescue:R-Lily58-cache-Lily58_Pro-rescue R1
+U 1 1 5B739F4A
+P 2850 3800
+F 0 "R1" V 2950 3800 50  0000 C BNN
+F 1 "R" V 2850 3800 50  0000 C CNN
+F 2 "SofleKeyboard-footprint:RESISTOR_mini" V 2780 3800 50  0001 C CNN
+F 3 "" H 2850 3800 50  0001 C CNN
+	1    2850 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard-rescue:R-Lily58-cache-Lily58_Pro-rescue R2
+U 1 1 5B73A034
+P 3000 3800
+F 0 "R2" V 3100 3800 50  0000 C BNN
+F 1 "R" V 3000 3800 50  0000 C CNN
+F 2 "SofleKeyboard-footprint:RESISTOR_mini" V 2930 3800 50  0001 C CNN
+F 3 "" H 3000 3800 50  0001 C CNN
+	1    3000 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard-rescue:i2c_pin-Lily58-cache-Lily58_Pro-rescue P1
+U 1 1 5B8F6780
+P 2000 2850
+F 0 "P1" H 2000 2950 50  0000 C CNN
+F 1 "i2c_pin" V 2100 2850 50  0000 C CNN
+F 2 "SofleKeyboard-footprint:1pin_conn" H 2000 2850 50  0001 C CNN
+F 3 "" H 2000 2850 50  0001 C CNN
+	1    2000 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SofleKeyboard-rescue:i2c_pin-Lily58-cache-Lily58_Pro-rescue P2
+U 1 1 5B8F6980
+P 2000 3600
+F 0 "P2" H 2000 3500 50  0000 C CNN
+F 1 "i2c_pin" V 2100 3600 50  0000 C CNN
+F 2 "SofleKeyboard-footprint:1pin_conn" H 2000 3600 50  0001 C CNN
+F 3 "" H 2000 3600 50  0001 C CNN
+	1    2000 3600
 	0    1    1    0   
+$EndComp
+$Comp
+L SofleKeyboard-rescue:D-Lily58-cache-Lily58_Pro-rescue D1
+U 1 1 5B7226E7
+P 7100 4750
+F 0 "D1" V 7146 4671 50  0000 R CNN
+F 1 "D" V 7055 4671 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 7100 4750 50  0001 C CNN
+F 3 "" H 7100 4750 50  0001 C CNN
+	1    7100 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D7
+U 1 1 5B723D94
+P 7100 5400
+F 0 "D7" V 7146 5321 50  0000 R CNN
+F 1 "D" V 7055 5321 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 7100 5225 50  0001 C CNN
+F 3 "" H 7100 5400 50  0001 C CNN
+F 4 "D" H 7100 5400 50  0001 C CNN "Sim.Device"
+F 5 "1=K 2=A" H 7100 5400 50  0001 C CNN "Sim.Pins"
+	1    7100 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D13
+U 1 1 5B7254EE
+P 7100 6050
+F 0 "D13" V 7146 5971 50  0000 R CNN
+F 1 "D" V 7055 5971 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 7100 5875 50  0001 C CNN
+F 3 "" H 7100 6050 50  0001 C CNN
+F 4 "D" H 7100 6050 50  0001 C CNN "Sim.Device"
+F 5 "1=K 2=A" H 7100 6050 50  0001 C CNN "Sim.Pins"
+	1    7100 6050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D19
+U 1 1 5B72767A
+P 7100 6700
+F 0 "D19" V 7146 6621 50  0000 R CNN
+F 1 "D" V 7055 6621 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 7100 6525 50  0001 C CNN
+F 3 "" H 7100 6700 50  0001 C CNN
+F 4 "D" H 7100 6700 50  0001 C CNN "Sim.Device"
+F 5 "1=K 2=A" H 7100 6700 50  0001 C CNN "Sim.Pins"
+	1    7100 6700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D25
+U 1 1 5B734844
+P 7100 7350
+F 0 "D25" V 7146 7271 50  0000 R CNN
+F 1 "D" V 7055 7271 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 7100 7175 50  0001 C CNN
+F 3 "" H 7100 7350 50  0001 C CNN
+F 4 "D" H 7100 7350 50  0001 C CNN "Sim.Device"
+F 5 "1=K 2=A" H 7100 7350 50  0001 C CNN "Sim.Pins"
+	1    7100 7350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D31
+U 1 1 00000000
+P 7100 7950
+F 0 "D31" V 7146 7871 50  0000 R CNN
+F 1 "D" V 7055 7871 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 7100 7775 50  0001 C CNN
+F 3 "" H 7100 7950 50  0001 C CNN
+F 4 "D" H 7100 7950 50  0001 C CNN "Sim.Device"
+F 5 "1=K 2=A" H 7100 7950 50  0001 C CNN "Sim.Pins"
+	1    7100 7950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D2
+U 1 1 5B722847
+P 7900 4750
+F 0 "D2" V 7946 4671 50  0000 R CNN
+F 1 "D" V 7855 4671 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 7900 4575 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 7900 4750 50  0001 C CNN
+F 4 "D" H 7900 4750 50  0001 C CNN "Sim.Device"
+F 5 "1=K 2=A" H 7900 4750 50  0001 C CNN "Sim.Pins"
+	1    7900 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D8
+U 1 1 5B723E5F
+P 7900 5400
+F 0 "D8" V 7946 5321 50  0000 R CNN
+F 1 "D" V 7855 5321 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 7900 5225 50  0001 C CNN
+F 3 "" H 7900 5400 50  0001 C CNN
+F 4 "D" H 7900 5400 50  0001 C CNN "Sim.Device"
+F 5 "1=K 2=A" H 7900 5400 50  0001 C CNN "Sim.Pins"
+	1    7900 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D14
+U 1 1 5B7255FF
+P 7900 6050
+F 0 "D14" V 7946 5971 50  0000 R CNN
+F 1 "D" V 7855 5971 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 7900 5875 50  0001 C CNN
+F 3 "" H 7900 6050 50  0001 C CNN
+F 4 "D" H 7900 6050 50  0001 C CNN "Sim.Device"
+F 5 "1=K 2=A" H 7900 6050 50  0001 C CNN "Sim.Pins"
+	1    7900 6050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D20
+U 1 1 5B7277CE
+P 7900 6700
+F 0 "D20" V 7946 6621 50  0000 R CNN
+F 1 "D" V 7855 6621 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 7900 6525 50  0001 C CNN
+F 3 "" H 7900 6700 50  0001 C CNN
+F 4 "D" H 7900 6700 50  0001 C CNN "Sim.Device"
+F 5 "1=K 2=A" H 7900 6700 50  0001 C CNN "Sim.Pins"
+	1    7900 6700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D26
+U 1 1 5B7349D1
+P 7900 7350
+F 0 "D26" V 7946 7271 50  0000 R CNN
+F 1 "D" V 7855 7271 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 7900 7175 50  0001 C CNN
+F 3 "" H 7900 7350 50  0001 C CNN
+F 4 "D" H 7900 7350 50  0001 C CNN "Sim.Device"
+F 5 "1=K 2=A" H 7900 7350 50  0001 C CNN "Sim.Pins"
+	1    7900 7350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D32
+U 1 1 00000000
+P 7900 7950
+F 0 "D32" V 7946 7871 50  0000 R CNN
+F 1 "D" V 7855 7871 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 7900 7775 50  0001 C CNN
+F 3 "" H 7900 7950 50  0001 C CNN
+F 4 "D" H 7900 7950 50  0001 C CNN "Sim.Device"
+F 5 "1=K 2=A" H 7900 7950 50  0001 C CNN "Sim.Pins"
+	1    7900 7950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D3
+U 1 1 5B722950
+P 8700 4750
+F 0 "D3" V 8746 4671 50  0000 R CNN
+F 1 "D" V 8655 4671 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 8700 4575 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8700 4750 50  0001 C CNN
+F 4 "D" H 8700 4750 50  0001 C CNN "Sim.Device"
+F 5 "1=K 2=A" H 8700 4750 50  0001 C CNN "Sim.Pins"
+	1    8700 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D9
+U 1 1 5B723FA1
+P 8700 5400
+F 0 "D9" V 8746 5321 50  0000 R CNN
+F 1 "D" V 8655 5321 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 8700 5225 50  0001 C CNN
+F 3 "" H 8700 5400 50  0001 C CNN
+F 4 "D" H 8700 5400 50  0001 C CNN "Sim.Device"
+F 5 "1=K 2=A" H 8700 5400 50  0001 C CNN "Sim.Pins"
+	1    8700 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D15
+U 1 1 5B72571C
+P 8700 6050
+F 0 "D15" V 8746 5971 50  0000 R CNN
+F 1 "D" V 8655 5971 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 8700 5875 50  0001 C CNN
+F 3 "" H 8700 6050 50  0001 C CNN
+F 4 "D" H 8700 6050 50  0001 C CNN "Sim.Device"
+F 5 "1=K 2=A" H 8700 6050 50  0001 C CNN "Sim.Pins"
+	1    8700 6050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D21
+U 1 1 5B727929
+P 8700 6700
+F 0 "D21" V 8746 6621 50  0000 R CNN
+F 1 "D" V 8655 6621 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 8700 6525 50  0001 C CNN
+F 3 "" H 8700 6700 50  0001 C CNN
+F 4 "D" H 8700 6700 50  0001 C CNN "Sim.Device"
+F 5 "1=K 2=A" H 8700 6700 50  0001 C CNN "Sim.Pins"
+	1    8700 6700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D27
+U 1 1 5B734B62
+P 8700 7350
+F 0 "D27" V 8746 7271 50  0000 R CNN
+F 1 "D" V 8655 7271 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 8700 7175 50  0001 C CNN
+F 3 "" H 8700 7350 50  0001 C CNN
+F 4 "D" H 8700 7350 50  0001 C CNN "Sim.Device"
+F 5 "1=K 2=A" H 8700 7350 50  0001 C CNN "Sim.Pins"
+	1    8700 7350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D33
+U 1 1 00000000
+P 8700 7950
+F 0 "D33" V 8746 7871 50  0000 R CNN
+F 1 "D" V 8655 7871 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 8700 7775 50  0001 C CNN
+F 3 "" H 8700 7950 50  0001 C CNN
+F 4 "D" H 8700 7950 50  0001 C CNN "Sim.Device"
+F 5 "1=K 2=A" H 8700 7950 50  0001 C CNN "Sim.Pins"
+	1    8700 7950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D4
+U 1 1 5B722A8F
+P 9500 4750
+F 0 "D4" V 9546 4671 50  0000 R CNN
+F 1 "D" V 9455 4671 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 9500 4575 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 9500 4750 50  0001 C CNN
+F 4 "D" H 9500 4750 50  0001 C CNN "Sim.Device"
+F 5 "1=K 2=A" H 9500 4750 50  0001 C CNN "Sim.Pins"
+	1    9500 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D10
+U 1 1 5B7240EA
+P 9500 5400
+F 0 "D10" V 9546 5321 50  0000 R CNN
+F 1 "D" V 9455 5321 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 9500 5225 50  0001 C CNN
+F 3 "" H 9500 5400 50  0001 C CNN
+F 4 "D" H 9500 5400 50  0001 C CNN "Sim.Device"
+F 5 "1=K 2=A" H 9500 5400 50  0001 C CNN "Sim.Pins"
+	1    9500 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D16
+U 1 1 5B725841
+P 9500 6050
+F 0 "D16" V 9546 5971 50  0000 R CNN
+F 1 "D" V 9455 5971 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 9500 5875 50  0001 C CNN
+F 3 "" H 9500 6050 50  0001 C CNN
+F 4 "D" H 9500 6050 50  0001 C CNN "Sim.Device"
+F 5 "1=K 2=A" H 9500 6050 50  0001 C CNN "Sim.Pins"
+	1    9500 6050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D22
+U 1 1 5B727A89
+P 9500 6700
+F 0 "D22" V 9546 6621 50  0000 R CNN
+F 1 "D" V 9455 6621 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 9500 6525 50  0001 C CNN
+F 3 "" H 9500 6700 50  0001 C CNN
+F 4 "D" H 9500 6700 50  0001 C CNN "Sim.Device"
+F 5 "1=K 2=A" H 9500 6700 50  0001 C CNN "Sim.Pins"
+	1    9500 6700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D28
+U 1 1 5B734CF9
+P 9500 7350
+F 0 "D28" V 9546 7271 50  0000 R CNN
+F 1 "D" V 9455 7271 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 9500 7175 50  0001 C CNN
+F 3 "" H 9500 7350 50  0001 C CNN
+F 4 "D" H 9500 7350 50  0001 C CNN "Sim.Device"
+F 5 "1=K 2=A" H 9500 7350 50  0001 C CNN "Sim.Pins"
+	1    9500 7350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D34
+U 1 1 00000000
+P 9500 7950
+F 0 "D34" V 9546 7871 50  0000 R CNN
+F 1 "D" V 9455 7871 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 9500 7775 50  0001 C CNN
+F 3 "" H 9500 7950 50  0001 C CNN
+F 4 "D" H 9500 7950 50  0001 C CNN "Sim.Device"
+F 5 "1=K 2=A" H 9500 7950 50  0001 C CNN "Sim.Pins"
+	1    9500 7950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D5
+U 1 1 5B722BAD
+P 10300 4750
+F 0 "D5" V 10346 4671 50  0000 R CNN
+F 1 "D" V 10255 4671 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 10300 4575 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 10300 4750 50  0001 C CNN
+F 4 "D" H 10300 4750 50  0001 C CNN "Sim.Device"
+F 5 "1=K 2=A" H 10300 4750 50  0001 C CNN "Sim.Pins"
+	1    10300 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D11
+U 1 1 5B72424D
+P 10300 5400
+F 0 "D11" V 10346 5321 50  0000 R CNN
+F 1 "D" V 10255 5321 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 10300 5225 50  0001 C CNN
+F 3 "" H 10300 5400 50  0001 C CNN
+F 4 "D" H 10300 5400 50  0001 C CNN "Sim.Device"
+F 5 "1=K 2=A" H 10300 5400 50  0001 C CNN "Sim.Pins"
+	1    10300 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D17
+U 1 1 5B72596D
+P 10300 6050
+F 0 "D17" V 10346 5971 50  0000 R CNN
+F 1 "D" V 10255 5971 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 10300 5875 50  0001 C CNN
+F 3 "" H 10300 6050 50  0001 C CNN
+F 4 "D" H 10300 6050 50  0001 C CNN "Sim.Device"
+F 5 "1=K 2=A" H 10300 6050 50  0001 C CNN "Sim.Pins"
+	1    10300 6050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D23
+U 1 1 5B727BFE
+P 10300 6700
+F 0 "D23" V 10346 6621 50  0000 R CNN
+F 1 "D" V 10255 6621 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 10300 6525 50  0001 C CNN
+F 3 "" H 10300 6700 50  0001 C CNN
+F 4 "D" H 10300 6700 50  0001 C CNN "Sim.Device"
+F 5 "1=K 2=A" H 10300 6700 50  0001 C CNN "Sim.Pins"
+	1    10300 6700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D29
+U 1 1 5B734F9E
+P 10300 7350
+F 0 "D29" V 10346 7271 50  0000 R CNN
+F 1 "D" V 10255 7271 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 10300 7175 50  0001 C CNN
+F 3 "" H 10300 7350 50  0001 C CNN
+F 4 "D" H 10300 7350 50  0001 C CNN "Sim.Device"
+F 5 "1=K 2=A" H 10300 7350 50  0001 C CNN "Sim.Pins"
+	1    10300 7350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D35
+U 1 1 00000000
+P 10300 7950
+F 0 "D35" V 10346 7871 50  0000 R CNN
+F 1 "D" V 10255 7871 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 10300 7775 50  0001 C CNN
+F 3 "" H 10300 7950 50  0001 C CNN
+F 4 "D" H 10300 7950 50  0001 C CNN "Sim.Device"
+F 5 "1=K 2=A" H 10300 7950 50  0001 C CNN "Sim.Pins"
+	1    10300 7950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D6
+U 1 1 5B722FE1
+P 11100 4750
+F 0 "D6" V 11146 4671 50  0000 R CNN
+F 1 "D" V 11055 4671 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 11100 4575 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 11100 4750 50  0001 C CNN
+F 4 "D" H 11100 4750 50  0001 C CNN "Sim.Device"
+F 5 "1=K 2=A" H 11100 4750 50  0001 C CNN "Sim.Pins"
+	1    11100 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D12
+U 1 1 5B7243C0
+P 11100 5400
+F 0 "D12" V 11146 5321 50  0000 R CNN
+F 1 "D" V 11055 5321 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 11100 5225 50  0001 C CNN
+F 3 "" H 11100 5400 50  0001 C CNN
+F 4 "D" H 11100 5400 50  0001 C CNN "Sim.Device"
+F 5 "1=K 2=A" H 11100 5400 50  0001 C CNN "Sim.Pins"
+	1    11100 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D18
+U 1 1 5B725AA2
+P 11100 6050
+F 0 "D18" V 11146 5971 50  0000 R CNN
+F 1 "D" V 11055 5971 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 11100 5875 50  0001 C CNN
+F 3 "" H 11100 6050 50  0001 C CNN
+F 4 "D" H 11100 6050 50  0001 C CNN "Sim.Device"
+F 5 "1=K 2=A" H 11100 6050 50  0001 C CNN "Sim.Pins"
+	1    11100 6050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D24
+U 1 1 5B727D79
+P 11100 6700
+F 0 "D24" V 11146 6621 50  0000 R CNN
+F 1 "D" V 11055 6621 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 11100 6525 50  0001 C CNN
+F 3 "" H 11100 6700 50  0001 C CNN
+F 4 "D" H 11100 6700 50  0001 C CNN "Sim.Device"
+F 5 "1=K 2=A" H 11100 6700 50  0001 C CNN "Sim.Pins"
+	1    11100 6700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D30
+U 1 1 5D956FE1
+P 11100 7350
+F 0 "D30" V 11146 7271 50  0000 R CNN
+F 1 "D" V 11055 7271 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 11100 7175 50  0001 C CNN
+F 3 "" H 11100 7350 50  0001 C CNN
+F 4 "D" H 11100 7350 50  0001 C CNN "Sim.Device"
+F 5 "1=K 2=A" H 11100 7350 50  0001 C CNN "Sim.Pins"
+	1    11100 7350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D36
+U 1 1 00000000
+P 11100 7950
+F 0 "D36" V 11146 7871 50  0000 R CNN
+F 1 "D" V 11055 7871 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 11100 7775 50  0001 C CNN
+F 3 "" H 11100 7950 50  0001 C CNN
+F 4 "D" H 11100 7950 50  0001 C CNN "Sim.Device"
+F 5 "1=K 2=A" H 11100 7950 50  0001 C CNN "Sim.Pins"
+	1    11100 7950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SofleKeyboard-rescue:SW_RST-Lily58-cache-Lily58_Pro-rescue RSW1
+U 1 1 5B8CE7E7
+P 1050 2450
+F 0 "RSW1" H 1050 2706 40  0000 C CNN
+F 1 "SW_RST" H 1050 2623 50  0000 C CNN
+F 2 "SofleKeyboard-footprint:TACT_SWITCH_TVBP06" H 1050 2450 50  0001 C CNN
+F 3 "" H 1050 2450 50  0001 C CNN
+	1    1050 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW1
+U 1 1 5B7225DA
+P 6800 4600
+F 0 "SW1" H 6800 4750 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 6800 4500 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 6800 4600 50  0001 C CNN
+F 3 "" H 6800 4600 50  0000 C CNN
+	1    6800 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW7
+U 1 1 5B723C9D
+P 6800 5250
+F 0 "SW7" H 6800 5400 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 6800 5150 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 6800 5250 50  0001 C CNN
+F 3 "" H 6800 5250 50  0000 C CNN
+	1    6800 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW13
+U 1 1 5B7250AD
+P 6800 5900
+F 0 "SW13" H 6800 6050 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 6800 5800 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 6800 5900 50  0001 C CNN
+F 3 "" H 6800 5900 50  0000 C CNN
+	1    6800 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW19
+U 1 1 5B727312
+P 6800 6550
+F 0 "SW19" H 6800 6700 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 6800 6450 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 6800 6550 50  0001 C CNN
+F 3 "" H 6800 6550 50  0000 C CNN
+	1    6800 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW31
+U 1 1 00000000
+P 6800 7800
+F 0 "SW31" H 6800 7950 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 6800 7700 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 6800 7800 50  0001 C CNN
+F 3 "" H 6800 7800 50  0000 C CNN
+	1    6800 7800
+	1    0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW2
+U 1 1 5B7227CD
+P 7600 4600
+F 0 "SW2" H 7600 4750 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 7600 4500 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 7600 4600 50  0001 C CNN
+F 3 "" H 7600 4600 50  0000 C CNN
+	1    7600 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW8
+U 1 1 5B723388
+P 7600 5250
+F 0 "SW8" H 7600 5400 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 7600 5150 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 7600 5250 50  0001 C CNN
+F 3 "" H 7600 5250 50  0000 C CNN
+	1    7600 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW14
+U 1 1 5B725133
+P 7600 5900
+F 0 "SW14" H 7600 6050 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 7600 5800 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 7600 5900 50  0001 C CNN
+F 3 "" H 7600 5900 50  0000 C CNN
+	1    7600 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW20
+U 1 1 5B727256
+P 7600 6550
+F 0 "SW20" H 7600 6700 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 7600 6450 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 7600 6550 50  0001 C CNN
+F 3 "" H 7600 6550 50  0000 C CNN
+	1    7600 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW26
+U 1 1 5B722582
+P 7600 7200
+F 0 "SW26" H 7600 7350 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 7600 7100 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 7600 7200 50  0001 C CNN
+F 3 "" H 7600 7200 50  0000 C CNN
+	1    7600 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW32
+U 1 1 00000000
+P 7600 7800
+F 0 "SW32" H 7600 7950 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 7600 7700 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 7600 7800 50  0001 C CNN
+F 3 "" H 7600 7800 50  0000 C CNN
+	1    7600 7800
+	1    0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW3
+U 1 1 5B7228F7
+P 8400 4600
+F 0 "SW3" H 8400 4750 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 8400 4500 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 8400 4600 50  0001 C CNN
+F 3 "" H 8400 4600 50  0000 C CNN
+	1    8400 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW9
+U 1 1 5B723731
+P 8400 5250
+F 0 "SW9" H 8400 5400 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 8400 5150 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 8400 5250 50  0001 C CNN
+F 3 "" H 8400 5250 50  0000 C CNN
+	1    8400 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW15
+U 1 1 5B7251BF
+P 8400 5900
+F 0 "SW15" H 8400 6050 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 8400 5800 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 8400 5900 50  0001 C CNN
+F 3 "" H 8400 5900 50  0000 C CNN
+	1    8400 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW21
+U 1 1 5B726F89
+P 8400 6550
+F 0 "SW21" H 8400 6700 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 8400 6450 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 8400 6550 50  0001 C CNN
+F 3 "" H 8400 6550 50  0000 C CNN
+	1    8400 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW27
+U 1 1 5B7293B0
+P 8400 7200
+F 0 "SW27" H 8400 7350 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 8400 7100 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 8400 7200 50  0001 C CNN
+F 3 "" H 8400 7200 50  0000 C CNN
+	1    8400 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW33
+U 1 1 00000000
+P 8400 7800
+F 0 "SW33" H 8400 7950 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 8400 7700 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 8400 7800 50  0001 C CNN
+F 3 "" H 8400 7800 50  0000 C CNN
+	1    8400 7800
+	1    0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW4
+U 1 1 5B722A11
+P 9200 4600
+F 0 "SW4" H 9200 4855 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 9200 4764 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 9200 4600 50  0001 C CNN
+F 3 "" H 9200 4600 50  0000 C CNN
+	1    9200 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW10
+U 1 1 5B7237A6
+P 9200 5250
+F 0 "SW10" H 9200 5400 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 9200 5150 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 9200 5250 50  0001 C CNN
+F 3 "" H 9200 5250 50  0000 C CNN
+	1    9200 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW16
+U 1 1 5B72524E
+P 9200 5900
+F 0 "SW16" H 9200 6050 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 9200 5800 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 9200 5900 50  0001 C CNN
+F 3 "" H 9200 5900 50  0000 C CNN
+	1    9200 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW22
+U 1 1 5B727035
+P 9200 6550
+F 0 "SW22" H 9200 6700 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 9200 6450 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 9200 6550 50  0001 C CNN
+F 3 "" H 9200 6550 50  0000 C CNN
+	1    9200 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW28
+U 1 1 5B734347
+P 9200 7200
+F 0 "SW28" H 9200 7350 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 9200 7100 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 9200 7200 50  0001 C CNN
+F 3 "" H 9200 7200 50  0000 C CNN
+	1    9200 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW34
+U 1 1 00000000
+P 9200 7800
+F 0 "SW34" H 9200 7950 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 9200 7700 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 9200 7800 50  0001 C CNN
+F 3 "" H 9200 7800 50  0000 C CNN
+	1    9200 7800
+	1    0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW5
+U 1 1 5B722B51
+P 10000 4600
+F 0 "SW5" H 10000 4750 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 10000 4500 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 10000 4600 50  0001 C CNN
+F 3 "" H 10000 4600 50  0000 C CNN
+	1    10000 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW11
+U 1 1 5B72387D
+P 10000 5250
+F 0 "SW11" H 10000 5400 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 10000 5150 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 10000 5250 50  0001 C CNN
+F 3 "" H 10000 5250 50  0000 C CNN
+	1    10000 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW17
+U 1 1 5B7252F1
+P 10000 5900
+F 0 "SW17" H 10000 6050 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 10000 5800 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 10000 5900 50  0001 C CNN
+F 3 "" H 10000 5900 50  0000 C CNN
+	1    10000 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW23
+U 1 1 5B7270F6
+P 10000 6550
+F 0 "SW23" H 10000 6700 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 10000 6450 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 10000 6550 50  0001 C CNN
+F 3 "" H 10000 6550 50  0000 C CNN
+	1    10000 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW29
+U 1 1 5B73449B
+P 10000 7200
+F 0 "SW29" H 10000 7350 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 10000 7100 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 10000 7200 50  0001 C CNN
+F 3 "" H 10000 7200 50  0000 C CNN
+	1    10000 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW35
+U 1 1 00000000
+P 10000 7800
+F 0 "SW35" H 10000 7950 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 10000 7700 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 10000 7800 50  0001 C CNN
+F 3 "" H 10000 7800 50  0000 C CNN
+	1    10000 7800
+	1    0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW6
+U 1 1 5B722CA9
+P 10800 4600
+F 0 "SW6" H 10800 4750 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 10800 4550 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 10800 4600 50  0001 C CNN
+F 3 "" H 10800 4600 50  0000 C CNN
+	1    10800 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW12
+U 1 1 5B723AD3
+P 10800 5250
+F 0 "SW12" H 10800 5400 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 10800 5150 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 10800 5250 50  0001 C CNN
+F 3 "" H 10800 5250 50  0000 C CNN
+	1    10800 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW18
+U 1 1 5B725398
+P 10800 5900
+F 0 "SW18" H 10800 6050 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 10800 5800 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 10800 5900 50  0001 C CNN
+F 3 "" H 10800 5900 50  0000 C CNN
+	1    10800 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW24
+U 1 1 5B7271A5
+P 10800 6550
+F 0 "SW24" H 10800 6700 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 10800 6450 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 10800 6550 50  0001 C CNN
+F 3 "" H 10800 6550 50  0000 C CNN
+	1    10800 6550
+	1    0    0    -1  
 $EndComp
 $Comp
 L SofleKeyboard:SW_PUSH_LED SW30
 U 1 1 5D954F78
-P 10600 6050
-F 0 "SW30" H 10600 6200 50  0000 C CNN
-F 1 "SW_PUSH_LED" H 10600 5950 50  0001 C CNN
-F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 10600 6050 50  0001 C CNN
-F 3 "" H 10600 6050 50  0000 C CNN
-	1    10600 6050
+P 10800 7200
+F 0 "SW30" H 10800 7350 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 10800 7100 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 10800 7200 50  0001 C CNN
+F 3 "" H 10800 7200 50  0000 C CNN
+	1    10800 7200
 	1    0    0    -1  
 $EndComp
 $Comp
-L SofleKeyboard-rescue:D-Lily58-cache-Lily58_Pro-rescue D30
-U 1 1 5D956FE1
-P 10900 6200
-F 0 "D30" V 10946 6121 50  0000 R CNN
-F 1 "D" V 10855 6121 50  0000 R CNN
-F 2 "Diode_SMD:crkbd-diode" H 10900 6200 50  0001 C CNN
-F 3 "" H 10900 6200 50  0001 C CNN
-	1    10900 6200
-	0    -1   -1   0   
+L SofleKeyboard:SW_PUSH_LED SW36
+U 1 1 00000000
+P 10800 7800
+F 0 "SW36" H 10800 7950 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 10800 7700 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 10800 7800 50  0001 C CNN
+F 3 "" H 10800 7800 50  0000 C CNN
+	1    10800 7800
+	1    0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard-rescue:Jumper-Device W1
+U 1 1 5B900157
+P 2300 3400
+F 0 "W1" H 2300 3350 50  0000 C CNN
+F 1 "jumper" H 2300 3550 50  0000 C CNN
+F 2 "SofleKeyboard-footprint:jumper_data" H 2300 3400 50  0001 C CNN
+F 3 "" H 2300 3400 50  0000 C CNN
+	1    2300 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L SofleKeyboard-rescue:OLED-Lily58-cache-Lily58_Pro-rescue J3
+U 1 1 5B91007B
+P 800 3950
+F 0 "J3" H 800 3700 50  0000 C CNN
+F 1 "OLED" H 800 4200 50  0000 C CNN
+F 2 "SofleKeyboard-footprint:OLED_4Pin" H 800 3950 50  0001 C CNN
+F 3 "" H 800 3950 50  0000 C CNN
+	1    800  3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L SofleKeyboard-rescue:HOLE-Lily58-cache-Lily58_Pro-rescue TH1
+U 1 1 5B74CE27
+P 750 7500
+F 0 "TH1" H 750 7500 60  0000 C CNN
+F 1 "HOLE" H 750 7400 60  0000 C CNN
+F 2 "SofleKeyboard-footprint:M2_HOLE_PCB" H 750 7500 60  0001 C CNN
+F 3 "" H 750 7500 60  0000 C CNN
+	1    750  7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard-rescue:HOLE-Lily58-cache-Lily58_Pro-rescue TH2
+U 1 1 5B74D0C7
+P 1100 7500
+F 0 "TH2" H 1100 7500 60  0000 C CNN
+F 1 "HOLE" H 1100 7400 60  0000 C CNN
+F 2 "SofleKeyboard-footprint:M2_HOLE_PCB" H 1100 7500 60  0001 C CNN
+F 3 "" H 1100 7500 60  0000 C CNN
+	1    1100 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard-rescue:HOLE-Lily58-cache-Lily58_Pro-rescue TH3
+U 1 1 5B74DA95
+P 1750 7500
+F 0 "TH3" H 1750 7500 60  0000 C CNN
+F 1 "HOLE" H 1750 7400 60  0000 C CNN
+F 2 "SofleKeyboard-footprint:HOLE_M2_TH" H 1750 7500 60  0001 C CNN
+F 3 "" H 1750 7500 60  0000 C CNN
+	1    1750 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard-rescue:HOLE-Lily58-cache-Lily58_Pro-rescue TH4
+U 1 1 5B74D1C0
+P 2100 7500
+F 0 "TH4" H 2100 7500 60  0000 C CNN
+F 1 "HOLE" H 2100 7400 60  0000 C CNN
+F 2 "SofleKeyboard-footprint:HOLE_M2_TH" H 2100 7500 60  0001 C CNN
+F 3 "" H 2100 7500 60  0000 C CNN
+	1    2100 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard-rescue:HOLE-Lily58-cache-Lily58_Pro-rescue TH5
+U 1 1 5B74D78B
+P 2450 7500
+F 0 "TH5" H 2450 7500 60  0000 C CNN
+F 1 "HOLE" H 2450 7400 60  0000 C CNN
+F 2 "SofleKeyboard-footprint:HOLE_M2_TH" H 2450 7500 60  0001 C CNN
+F 3 "" H 2450 7500 60  0000 C CNN
+	1    2450 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard-rescue:HOLE-Lily58-cache-Lily58_Pro-rescue TH6
+U 1 1 5B74D88C
+P 2800 7500
+F 0 "TH6" H 2800 7500 60  0000 C CNN
+F 1 "HOLE" H 2800 7400 60  0000 C CNN
+F 2 "SofleKeyboard-footprint:HOLE_M2_TH" H 2800 7500 60  0001 C CNN
+F 3 "" H 2800 7500 60  0000 C CNN
+	1    2800 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard-rescue:HOLE-Lily58-cache-Lily58_Pro-rescue TH7
+U 1 1 5B74D98F
+P 3150 7500
+F 0 "TH7" H 3150 7500 60  0000 C CNN
+F 1 "HOLE" H 3150 7400 60  0000 C CNN
+F 2 "SofleKeyboard-footprint:HOLE_M2_TH" H 3150 7500 60  0001 C CNN
+F 3 "" H 3150 7500 60  0000 C CNN
+	1    3150 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW1
+U 2 1 5F749FCB
+P 7500 1000
+F 0 "SW1" H 7500 1000 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 7500 1274 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 7500 1250 50  0001 C CNN
+F 3 "" H 7500 1250 50  0001 C CNN
+	2    7500 1000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW7
+U 2 1 5F754917
+P 7500 1450
+F 0 "SW7" H 7500 1475 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 7500 1724 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 7500 1700 50  0001 C CNN
+F 3 "" H 7500 1700 50  0001 C CNN
+	2    7500 1450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW13
+U 2 1 5F7D01B3
+P 7500 1900
+F 0 "SW13" H 7500 1900 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 7500 2174 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 7500 2150 50  0001 C CNN
+F 3 "" H 7500 2150 50  0001 C CNN
+	2    7500 1900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW19
+U 2 1 5F7D018F
+P 7500 2350
+F 0 "SW19" H 7500 2350 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 7500 2624 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 7500 2600 50  0001 C CNN
+F 3 "" H 7500 2600 50  0001 C CNN
+	2    7500 2350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW26
+U 2 1 5F7D72BB
+P 7500 2850
+F 0 "SW26" H 7500 2850 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 7500 3124 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 7500 3100 50  0001 C CNN
+F 3 "" H 7500 3100 50  0001 C CNN
+	2    7500 2850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW31
+U 2 1 00000000
+P 7500 3350
+F 0 "SW31" H 7500 3350 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 7500 3624 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 7500 3600 50  0001 C CNN
+F 3 "" H 7500 3600 50  0001 C CNN
+	2    7500 3350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW2
+U 2 1 5F74DC46
+P 8100 1000
+F 0 "SW2" H 8100 1000 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 8100 1274 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 8100 1250 50  0001 C CNN
+F 3 "" H 8100 1250 50  0001 C CNN
+	2    8100 1000
+	-1   0    0    1   
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW8
+U 2 1 5F755BEC
+P 8100 1450
+F 0 "SW8" H 8100 1450 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 8100 1724 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 8100 1700 50  0001 C CNN
+F 3 "" H 8100 1700 50  0001 C CNN
+	2    8100 1450
+	-1   0    0    1   
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW14
+U 2 1 5F7D01AD
+P 8100 1900
+F 0 "SW14" H 8100 1900 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 8100 2174 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 8100 2150 50  0001 C CNN
+F 3 "" H 8100 2150 50  0001 C CNN
+	2    8100 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW20
+U 2 1 5F7D0189
+P 8100 2350
+F 0 "SW20" H 8100 2350 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 8100 2624 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 8100 2600 50  0001 C CNN
+F 3 "" H 8100 2600 50  0001 C CNN
+	2    8100 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW27
+U 2 1 00000000
+P 8100 2850
+F 0 "SW27" H 8100 2850 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 8100 3124 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 8100 3100 50  0001 C CNN
+F 3 "" H 8100 3100 50  0001 C CNN
+	2    8100 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW32
+U 2 1 00000000
+P 8100 3350
+F 0 "SW32" H 8100 3350 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 8100 3624 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 8100 3600 50  0001 C CNN
+F 3 "" H 8100 3600 50  0001 C CNN
+	2    8100 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW3
+U 2 1 5F74EA54
+P 8700 1000
+F 0 "SW3" H 8700 1000 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 8700 1274 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 8700 1250 50  0001 C CNN
+F 3 "" H 8700 1250 50  0001 C CNN
+	2    8700 1000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW9
+U 2 1 5F756CE6
+P 8700 1450
+F 0 "SW9" H 8700 1450 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 8700 1724 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 8700 1700 50  0001 C CNN
+F 3 "" H 8700 1700 50  0001 C CNN
+	2    8700 1450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW15
+U 2 1 5F7D01A7
+P 8700 1900
+F 0 "SW15" H 8700 1900 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 8700 2174 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 8700 2150 50  0001 C CNN
+F 3 "" H 8700 2150 50  0001 C CNN
+	2    8700 1900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW21
+U 2 1 5F7D0183
+P 8700 2350
+F 0 "SW21" H 8700 2350 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 8700 2624 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 8700 2600 50  0001 C CNN
+F 3 "" H 8700 2600 50  0001 C CNN
+	2    8700 2350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW28
+U 2 1 00000000
+P 8700 2850
+F 0 "SW28" H 8700 2850 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 8700 3124 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 8700 3100 50  0001 C CNN
+F 3 "" H 8700 3100 50  0001 C CNN
+	2    8700 2850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW33
+U 2 1 00000000
+P 8700 3350
+F 0 "SW33" H 8700 3350 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 8700 3624 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 8700 3600 50  0001 C CNN
+F 3 "" H 8700 3600 50  0001 C CNN
+	2    8700 3350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW4
+U 2 1 5F74FBCC
+P 9300 1000
+F 0 "SW4" H 9300 1000 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 9300 1274 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 9300 1250 50  0001 C CNN
+F 3 "" H 9300 1250 50  0001 C CNN
+	2    9300 1000
+	-1   0    0    1   
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW10
+U 2 1 5F757ED7
+P 9300 1450
+F 0 "SW10" H 9300 1450 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 9300 1724 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 9300 1700 50  0001 C CNN
+F 3 "" H 9300 1700 50  0001 C CNN
+	2    9300 1450
+	-1   0    0    1   
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW16
+U 2 1 5F7D01A1
+P 9300 1900
+F 0 "SW16" H 9300 1900 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 9300 2174 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 9300 2150 50  0001 C CNN
+F 3 "" H 9300 2150 50  0001 C CNN
+	2    9300 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW22
+U 2 1 5F7D017D
+P 9300 2350
+F 0 "SW22" H 9300 2350 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 9300 2624 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 9300 2600 50  0001 C CNN
+F 3 "" H 9300 2600 50  0001 C CNN
+	2    9300 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW29
+U 2 1 00000000
+P 9300 2850
+F 0 "SW29" H 9300 2850 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 9300 3124 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 9300 3100 50  0001 C CNN
+F 3 "" H 9300 3100 50  0001 C CNN
+	2    9300 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW34
+U 2 1 00000000
+P 9300 3350
+F 0 "SW34" H 9300 3350 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 9300 3624 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 9300 3600 50  0001 C CNN
+F 3 "" H 9300 3600 50  0001 C CNN
+	2    9300 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW5
+U 2 1 5F751B72
+P 9900 1000
+F 0 "SW5" H 9900 1000 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 9900 1274 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 9900 1250 50  0001 C CNN
+F 3 "" H 9900 1250 50  0001 C CNN
+	2    9900 1000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW11
+U 2 1 5F758F15
+P 9900 1450
+F 0 "SW11" H 9900 1450 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 9900 1724 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 9900 1700 50  0001 C CNN
+F 3 "" H 9900 1700 50  0001 C CNN
+	2    9900 1450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW17
+U 2 1 5F7D019B
+P 9900 1900
+F 0 "SW17" H 9875 1900 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 9900 2174 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 9900 2150 50  0001 C CNN
+F 3 "" H 9900 2150 50  0001 C CNN
+	2    9900 1900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW23
+U 2 1 5F7D0177
+P 9900 2350
+F 0 "SW23" H 9900 2350 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 9900 2624 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 9900 2600 50  0001 C CNN
+F 3 "" H 9900 2600 50  0001 C CNN
+	2    9900 2350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW30
+U 2 1 00000000
+P 9900 2850
+F 0 "SW30" H 9900 2850 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 9900 3124 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 9900 3100 50  0001 C CNN
+F 3 "" H 9900 3100 50  0001 C CNN
+	2    9900 2850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW35
+U 2 1 00000000
+P 9900 3350
+F 0 "SW35" H 9900 3350 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 9900 3624 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 9900 3600 50  0001 C CNN
+F 3 "" H 9900 3600 50  0001 C CNN
+	2    9900 3350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW6
+U 2 1 5F752AB9
+P 10500 1000
+F 0 "SW6" H 10500 1000 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 10500 1274 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 10500 1250 50  0001 C CNN
+F 3 "" H 10500 1250 50  0001 C CNN
+	2    10500 1000
+	-1   0    0    1   
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW12
+U 2 1 5F75A082
+P 10500 1450
+F 0 "SW12" H 10500 1450 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 10500 1724 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 10500 1700 50  0001 C CNN
+F 3 "" H 10500 1700 50  0001 C CNN
+	2    10500 1450
+	-1   0    0    1   
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW18
+U 2 1 5F7D0195
+P 10500 1900
+F 0 "SW18" H 10500 1900 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 10500 2174 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 10500 2150 50  0001 C CNN
+F 3 "" H 10500 2150 50  0001 C CNN
+	2    10500 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW24
+U 2 1 5F7D0171
+P 10500 2350
+F 0 "SW24" H 10500 2350 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 10500 2624 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 10500 2600 50  0001 C CNN
+F 3 "" H 10500 2600 50  0001 C CNN
+	2    10500 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L SofleKeyboard:SW_PUSH_LED SW36
+U 2 1 00000000
+P 10500 3350
+F 0 "SW36" H 10500 3350 50  0000 C CNN
+F 1 "SW_PUSH_LED" H 10500 3624 50  0001 C CNN
+F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 10500 3600 50  0001 C CNN
+F 3 "" H 10500 3600 50  0001 C CNN
+	2    10500 3350
+	-1   0    0    1   
 $EndComp
 $Comp
 L SofleKeyboard-rescue:Rotary_Encoder_Switch-Device SW25
@@ -1594,332 +2248,25 @@ F 3 "~" H 2550 6410 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SofleKeyboard-rescue:GND-power #PWR0103
-U 1 1 5DA35FE6
-P 1650 6250
-F 0 "#PWR0103" H 1650 6000 50  0001 C CNN
-F 1 "GND" H 1655 6077 50  0000 C CNN
-F 2 "" H 1650 6250 50  0001 C CNN
-F 3 "" H 1650 6250 50  0001 C CNN
-	1    1650 6250
+L SofleKeyboard-rescue:MJ-4PP-9-Lily58-cache-Lily58_Pro-rescue J2
+U 1 1 5B742D8C
+P 1150 3200
+F 0 "J2" H 1100 3500 60  0000 C CNN
+F 1 "4PIN" H 1100 2900 60  0000 C CNN
+F 2 "SofleKeyboard-footprint:MJ-4PP-9" H 1150 3150 60  0001 C CNN
+F 3 "" H 1150 3150 60  0000 C CNN
+	1    1150 3200
 	1    0    0    -1  
 $EndComp
 $Comp
-L SofleKeyboard:SW_PUSH_LED SW6
-U 2 1 5F752AB9
-P 10625 975
-F 0 "SW6" H 10625 975 50  0000 C CNN
-F 1 "SW_PUSH_LED" H 10625 1249 50  0001 C CNN
-F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 10625 1225 50  0001 C CNN
-F 3 "" H 10625 1225 50  0001 C CNN
-	2    10625 975 
-	-1   0    0    1   
-$EndComp
-$Comp
-L SofleKeyboard:SW_PUSH_LED SW7
-U 2 1 5F754917
-P 7625 1425
-F 0 "SW7" H 7625 1450 50  0000 C CNN
-F 1 "SW_PUSH_LED" H 7625 1699 50  0001 C CNN
-F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 7625 1675 50  0001 C CNN
-F 3 "" H 7625 1675 50  0001 C CNN
-	2    7625 1425
-	-1   0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard:SW_PUSH_LED SW8
-U 2 1 5F755BEC
-P 8225 1425
-F 0 "SW8" H 8225 1425 50  0000 C CNN
-F 1 "SW_PUSH_LED" H 8225 1699 50  0001 C CNN
-F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 8225 1675 50  0001 C CNN
-F 3 "" H 8225 1675 50  0001 C CNN
-	2    8225 1425
-	-1   0    0    1   
-$EndComp
-$Comp
-L SofleKeyboard:SW_PUSH_LED SW9
-U 2 1 5F756CE6
-P 8825 1425
-F 0 "SW9" H 8825 1425 50  0000 C CNN
-F 1 "SW_PUSH_LED" H 8825 1699 50  0001 C CNN
-F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 8825 1675 50  0001 C CNN
-F 3 "" H 8825 1675 50  0001 C CNN
-	2    8825 1425
-	-1   0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard:SW_PUSH_LED SW10
-U 2 1 5F757ED7
-P 9425 1425
-F 0 "SW10" H 9425 1425 50  0000 C CNN
-F 1 "SW_PUSH_LED" H 9425 1699 50  0001 C CNN
-F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 9425 1675 50  0001 C CNN
-F 3 "" H 9425 1675 50  0001 C CNN
-	2    9425 1425
-	-1   0    0    1   
-$EndComp
-$Comp
-L SofleKeyboard:SW_PUSH_LED SW12
-U 2 1 5F75A082
-P 10625 1425
-F 0 "SW12" H 10625 1425 50  0000 C CNN
-F 1 "SW_PUSH_LED" H 10625 1699 50  0001 C CNN
-F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 10625 1675 50  0001 C CNN
-F 3 "" H 10625 1675 50  0001 C CNN
-	2    10625 1425
-	-1   0    0    1   
-$EndComp
-$Comp
-L SofleKeyboard:SW_PUSH_LED SW4
-U 1 1 5B722A11
-P 9000 3450
-F 0 "SW4" H 9000 3705 50  0000 C CNN
-F 1 "SW_PUSH_LED" H 9000 3614 50  0001 C CNN
-F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 9000 3450 50  0001 C CNN
-F 3 "" H 9000 3450 50  0000 C CNN
-	1    9000 3450
+L SofleKeyboard-rescue:ProMicro_2-Lily58-cache-Lily58_Pro-rescue U1
+U 1 1 5B722440
+P 1750 1400
+F 0 "U1" H 1750 2100 60  0000 C CNN
+F 1 "ProMicro" H 1750 700 60  0000 C CNN
+F 2 "SofleKeyboard-footprint:ProMicro" H 1850 350 60  0001 C CNN
+F 3 "" H 1850 350 60  0000 C CNN
+	1    1750 1400
 	1    0    0    -1  
 $EndComp
-Text GLabel 7200 875  0    50   Input ~ 0
-LED
-$Comp
-L SofleKeyboard:SW_PUSH_LED SW1
-U 2 1 5F749FCB
-P 7625 975
-F 0 "SW1" H 7625 975 50  0000 C CNN
-F 1 "SW_PUSH_LED" H 7625 1249 50  0001 C CNN
-F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 7625 1225 50  0001 C CNN
-F 3 "" H 7625 1225 50  0001 C CNN
-	2    7625 975 
-	-1   0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard:SW_PUSH_LED SW11
-U 2 1 5F758F15
-P 10025 1425
-F 0 "SW11" H 10025 1425 50  0000 C CNN
-F 1 "SW_PUSH_LED" H 10025 1699 50  0001 C CNN
-F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 10025 1675 50  0001 C CNN
-F 3 "" H 10025 1675 50  0001 C CNN
-	2    10025 1425
-	-1   0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard:SW_PUSH_LED SW5
-U 2 1 5F751B72
-P 10025 975
-F 0 "SW5" H 10025 975 50  0000 C CNN
-F 1 "SW_PUSH_LED" H 10025 1249 50  0001 C CNN
-F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 10025 1225 50  0001 C CNN
-F 3 "" H 10025 1225 50  0001 C CNN
-	2    10025 975 
-	-1   0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard:SW_PUSH_LED SW23
-U 2 1 5F7D0177
-P 10025 2325
-F 0 "SW23" H 10025 2325 50  0000 C CNN
-F 1 "SW_PUSH_LED" H 10025 2599 50  0001 C CNN
-F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 10025 2575 50  0001 C CNN
-F 3 "" H 10025 2575 50  0001 C CNN
-	2    10025 2325
-	-1   0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard:SW_PUSH_LED SW17
-U 2 1 5F7D019B
-P 10025 1875
-F 0 "SW17" H 10000 1875 50  0000 C CNN
-F 1 "SW_PUSH_LED" H 10025 2149 50  0001 C CNN
-F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 10025 2125 50  0001 C CNN
-F 3 "" H 10025 2125 50  0001 C CNN
-	2    10025 1875
-	-1   0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard:SW_PUSH_LED SW29
-U 2 1 5F7D72A9
-P 8825 2775
-F 0 "SW29" H 8825 2775 50  0000 C CNN
-F 1 "SW_PUSH_LED" H 8825 3049 50  0001 C CNN
-F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 8825 3025 50  0001 C CNN
-F 3 "" H 8825 3025 50  0001 C CNN
-	2    8825 2775
-	-1   0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard:SW_PUSH_LED SW23
-U 1 1 5B7270F6
-P 9800 5400
-F 0 "SW23" H 9800 5550 50  0000 C CNN
-F 1 "SW_PUSH_LED" H 9800 5300 50  0001 C CNN
-F 2 "SofleChoc:Choc_Hotswap_SK6812MiniE" H 9800 5400 50  0001 C CNN
-F 3 "" H 9800 5400 50  0000 C CNN
-	1    9800 5400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7200 875  7425 875 
-NoConn ~ 10825 875 
-Wire Wire Line
-	7825 1075 7825 1175
-Wire Wire Line
-	7825 1175 7425 1175
-Wire Wire Line
-	7425 1175 7425 1325
-Wire Wire Line
-	7825 1525 7825 1650
-Wire Wire Line
-	7825 1650 7425 1650
-Wire Wire Line
-	7425 1650 7425 1775
-Wire Wire Line
-	7825 1975 7825 2100
-Wire Wire Line
-	7825 2100 7425 2100
-Wire Wire Line
-	7425 2100 7425 2225
-Wire Wire Line
-	9025 1075 9025 1200
-Wire Wire Line
-	9025 1200 8625 1200
-Wire Wire Line
-	8625 1200 8625 1325
-Wire Wire Line
-	9025 1525 9025 1650
-Wire Wire Line
-	9025 1650 8625 1650
-Wire Wire Line
-	8625 1650 8625 1775
-Wire Wire Line
-	9025 1975 9025 2075
-Wire Wire Line
-	9025 2075 8625 2075
-Wire Wire Line
-	8625 2075 8625 2225
-Wire Wire Line
-	9025 2425 9025 2550
-Wire Wire Line
-	9025 2550 8625 2550
-Wire Wire Line
-	8625 2550 8625 2675
-Wire Wire Line
-	10225 1075 10225 1200
-Wire Wire Line
-	10225 1200 9825 1200
-Wire Wire Line
-	9825 1200 9825 1325
-Wire Wire Line
-	10225 1525 10225 1650
-Wire Wire Line
-	10225 1650 9825 1650
-Wire Wire Line
-	9825 1650 9825 1775
-Wire Wire Line
-	10225 1975 10225 2100
-Wire Wire Line
-	10225 2100 9825 2100
-Wire Wire Line
-	9825 2100 9825 2225
-Wire Wire Line
-	7825 2425 7825 2550
-Wire Wire Line
-	7825 2550 6875 2550
-Wire Wire Line
-	6875 2550 6875 2675
-Wire Wire Line
-	7275 2875 7350 2875
-Wire Wire Line
-	7350 2875 7350 2675
-Wire Wire Line
-	7350 2675 7425 2675
-$Comp
-L power:VCC #PWR0104
-U 1 1 604393F0
-P 9025 2225
-F 0 "#PWR0104" H 9025 2075 50  0001 C CNN
-F 1 "VCC" H 9040 2398 50  0000 C CNN
-F 2 "" H 9025 2225 50  0001 C CNN
-F 3 "" H 9025 2225 50  0001 C CNN
-	1    9025 2225
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7825 2875 8025 2875
-Wire Wire Line
-	8425 2675 8425 2550
-Wire Wire Line
-	8425 2550 8025 2550
-Wire Wire Line
-	8025 2550 8025 2425
-Wire Wire Line
-	8425 2225 8425 2100
-Wire Wire Line
-	8425 2100 8025 2100
-Wire Wire Line
-	8025 2100 8025 1975
-Wire Wire Line
-	8425 1775 8425 1650
-Wire Wire Line
-	8425 1650 8025 1650
-Wire Wire Line
-	8025 1650 8025 1525
-Wire Wire Line
-	8425 1325 8425 1200
-Wire Wire Line
-	8425 1200 8025 1200
-Wire Wire Line
-	8025 1200 8025 1075
-Wire Wire Line
-	8425 875  8625 875 
-Wire Wire Line
-	9025 2875 9225 2875
-Wire Wire Line
-	9625 2675 9625 2550
-Wire Wire Line
-	9625 2550 9225 2550
-Wire Wire Line
-	9225 2550 9225 2425
-Wire Wire Line
-	9625 2225 9625 2100
-Wire Wire Line
-	9625 2100 9225 2100
-Wire Wire Line
-	9225 2100 9225 1975
-Wire Wire Line
-	9625 1775 9625 1650
-Wire Wire Line
-	9625 1650 9225 1650
-Wire Wire Line
-	9225 1650 9225 1525
-Wire Wire Line
-	9625 1325 9625 1200
-Wire Wire Line
-	9625 1200 9225 1200
-Wire Wire Line
-	9225 1200 9225 1075
-Wire Wire Line
-	9625 875  9825 875 
-Wire Wire Line
-	10225 2425 10425 2425
-Wire Wire Line
-	10825 2225 10825 2100
-Wire Wire Line
-	10825 2100 10425 2100
-Wire Wire Line
-	10425 2100 10425 1975
-Wire Wire Line
-	10825 1775 10825 1650
-Wire Wire Line
-	10825 1650 10425 1650
-Wire Wire Line
-	10425 1650 10425 1525
-Wire Wire Line
-	10825 1325 10825 1200
-Wire Wire Line
-	10825 1200 10425 1200
-Wire Wire Line
-	10425 1200 10425 1075
 $EndSCHEMATC
